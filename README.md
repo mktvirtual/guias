@@ -34,3 +34,7 @@ This is an adaptation of several guides to our reality and believes. Here is a l
 - [Guides](https://github.com/thoughtbot/guides) by [thoughtbot](https://github.com/thoughtbot)
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines) by [csswizardry](https://github.com/csswizardry)
 - [Javascript](https://github.com/airbnb/javascript) by [airbnb](https://github.com/airbnb)
+
+## License
+
+Guides is © 2014 Mkt Virtual. It is an adaptation of [Guides, by thoughtbot, inc](https://github.com/thoughtbot/guides). It is distributed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/).
