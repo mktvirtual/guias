@@ -324,4 +324,4 @@
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
     - Use these guidelines to write better CSS. Most of this guide was based on it.
 - [Guides by Thoughtbot](https://github.com/thoughtbot/guides/tree/master/style)
-    - This guide is also a adaptation of Thoughtbot's Guides.
+    - This guide is also an adaptation of Thoughtbot's Guides.
