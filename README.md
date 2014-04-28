@@ -24,3 +24,13 @@
 - "Don't" means there's never a good reason.
 - "Prefer" indicates a better option and its alternative to watch out for.
 - "Use" is a positive instruction.
+
+## Credits
+
+Guides was created at [Mkt Virtual](http://mktvirtual.com.br/). It follows advices from experts, tips from masters and opinions from passionate developers.
+
+This is an adaptation of several guides to our reality and believes. Here is a list of them:
+
+- [Guides](https://github.com/thoughtbot/guides) by [thoughtbot](https://github.com/thoughtbot)
+- [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines) by [csswizardry](https://github.com/csswizardry)
+- [Javascript](https://github.com/airbnb/javascript) by [airbnb](https://github.com/airbnb)
