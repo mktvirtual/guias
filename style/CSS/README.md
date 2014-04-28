@@ -8,6 +8,8 @@
 - [Organization](#organization)
 - [References](#reference)
 
+[[⬅︎ Back to Style]](https://github.com/hugobessaa/guides/tree/master/style)
+
 ## Formatting
 - Use Sass.
     - Sass give us the power to write extensible CSS with variables, conditionals, functions and stuff. Use it.
@@ -152,6 +154,8 @@
     }
     ```
 
+[[⬆︎ Back to Top]](#table-of-contents)
+
 ## Selectors
 - Use class selectors.
     - Classes are extensible and highly reusable. They are your best friends when developing great CSS.
@@ -227,7 +231,7 @@
         .header {
             // ...
         }
-        
+
             .info {
                 // ...
             }
@@ -259,6 +263,8 @@
     }
     ```
 
+[[⬆︎ Back to Top]](#table-of-contents)
+
 ## Order
 - Place `@extends` and `@includes` at the top of your declaration list.
     ```scss
@@ -288,6 +294,8 @@
 
 - Use relevance ordering for properties, NOT alphabetical.
     - For box elements, sizing properties are more important than text properties. In inline elements it's the opposite. By ordering properties by relevance you make it easy to read the most important things first.
+
+[[⬆︎ Back to Top]](#table-of-contents)
 
 ## Organization
 - Use [Normalize](http://necolas.github.io/normalize.css/) as a browser reset.
@@ -320,8 +328,12 @@
 - Avoid having files longer than 100 lines.
     - More than that you are probably doing it wrong. Abstract components. Always.
 
+[[⬆︎ Back to Top]](#table-of-contents)
+
 ## References
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
     - Use these guidelines to write better CSS. Most of this guide was based on it.
 - [Guides by Thoughtbot](https://github.com/thoughtbot/guides/tree/master/style)
     - This guide is also an adaptation of Thoughtbot's Guides.
+
+[[⬆︎ Back to Top]](#table-of-contents)

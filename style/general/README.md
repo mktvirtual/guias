@@ -4,6 +4,8 @@
 - [Formating](#formatting)
 - [Order](#order)
 
+[[⬅︎ Back to Style]](https://github.com/hugobessaa/guides/tree/master/style)
+
 ## Formatting
 - Don't misspell.
     ```javascript
@@ -17,7 +19,7 @@
 - Avoid inline comments.
     ```javascript
     var list = []; // bad
-    
+
     // good
     var list = [];
     ```
@@ -70,7 +72,7 @@
 
     // good
     var $users = $('.user'),
-    ∙∙∙∙$posts = $('.post');    
+    ∙∙∙∙$posts = $('.post');
     ```
 
 - Use empty lines around multi-line blocks.
@@ -82,7 +84,7 @@
     }
     .post {
         border: 1px solid #f00;
-        color: #000;   
+        color: #000;
     }
 
     // good
@@ -93,8 +95,8 @@
 
     .post {
         border: 1px solid #f00;
-        color: #000;   
-    }    
+        color: #000;
+    }
     ```
 
 - Use spaces around operators, after commas, after colons and semicolons, around `{` and before `}`.
@@ -144,6 +146,8 @@
     // good
     var user = {};
     ```
+
+[[⬆︎ Back to Top]](#table-of-contents)
 
 ## Order
 - Order methods so that caller methods are earlier in the file than the methods they call.
