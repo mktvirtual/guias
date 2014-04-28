@@ -6,11 +6,13 @@
 
 ## Formatting
 - Don't misspell.
+    ```javascript
     // bad
     var messagi;
 
     // good
     var message;
+    ```
 
 - Avoid inline comments.
     ```javascript
