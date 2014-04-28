@@ -53,6 +53,18 @@
 
     ```
 
+- Prefer `em` unit.
+    - when using `em` units your components can easily adapt to font-size changes. They are great for `@media` queries breakpoints too, as they are applied while zooming.
+
+    ```scss
+    // bad
+    font-size: 32px;
+    font-size: 2rem;
+
+    // good
+    font-size: 2em;
+    ```
+
 - Prefer hex color codes, when possible.
     ```scss
     // bad
@@ -231,18 +243,6 @@
     ```
 - Don't nest more than 6 selectors deep.
     - Two more reasons than the last item to not have deeply nested selectors
-
-- Prefer `em` unit.
-    - when using `em` units your components can easily adapt to font-size changes. They are great for `@media` queries breakpoints too, as they are applied while zooming.
-
-    ```scss
-    // bad
-    font-size: 32px;
-    font-size: 2rem;
-
-    // good
-    font-size: 2em;
-    ```
 
 - Prefer `%placeholder` selectors to `@extend`. [Here's why](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/)
     ```scss
