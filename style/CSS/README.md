@@ -242,9 +242,9 @@
     }
     ```
 - Don't nest more than 6 selectors deep.
-    - Two more reasons than the last item to not have deeply nested selectors
+    - Two more reasons than the last item to not have deeply nested selectors.
 
-- Prefer `%placeholder` selectors to `@extend`. [Here's why](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/)
+- Prefer `%placeholder` selectors to `@extend`. [Here's why](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/).
     ```scss
     // bad
     .post {
@@ -315,7 +315,7 @@
     ```
 
 - Avoid hard coding styles in page specific files.
-    - If you split your components in different files you can use them in other pages
+    - If you split your components in different files you can use them in other pages.
 
 - Avoid having files longer than 100 lines.
     - More than that you are probably doing it wrong. Abstract components. Always.
