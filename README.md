@@ -16,7 +16,7 @@
 - Be consistent.
 - Don't rewrite existing code to follow this guide
 - Don't violate a guideline without a good reason
-- A reason is good when you can convince a teamate
+- A reason is good when you can convince a teammate
 
 ## Language
 
