@@ -7,4 +7,4 @@
 - Javascript
 - PHP
 
-[[⬅︎ Back to Guides]](https://github.com/hugobessaa/guides/tree/master/style)
+[[⬅︎ Back to Guides]](https://github.com/hugobessaa/guides)
