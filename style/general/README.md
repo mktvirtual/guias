@@ -1,6 +1,8 @@
 # General
 > general guidelines to write beautiful code
 
+## Table of Contents
+
 - [Formating](#formatting)
 - [Order](#order)
 
