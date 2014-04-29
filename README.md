@@ -7,21 +7,23 @@ These guides were created to streamline the development workflow at [Mkt Virtual
 
 ## Table of Contents
 
-- [ ] [Style](https://github.com/hugobessaa/guides/tree/master/style)
-    - [x] [General](https://github.com/hugobessaa/guides/tree/master/style/general)
-    - [x] [CSS](https://github.com/hugobessaa/guides/tree/master/style/CSS)
-    - [ ] Javascript
-    - [ ] PHP
-- [ ] Best Practices
-    - [ ] General
-    - [ ] CSS
-    - [ ] Git
-    - [ ] Javascript
-    - [ ] PHP
-- [ ] Workflow
-    - [ ] General
-    - [ ] Front-end
-    - [ ] Back-end
+### [Style](https://github.com/hugobessaa/guides/tree/master/style)
+- [x] [General](https://github.com/hugobessaa/guides/tree/master/style/general)
+- [x] [CSS](https://github.com/hugobessaa/guides/tree/master/style/CSS)
+- [ ] Javascript
+- [ ] PHP
+
+### Best Practices
+- [ ] General
+- [ ] CSS
+- [ ] Git
+- [ ] Javascript
+- [ ] PHP
+
+### Workflow
+- [ ] General
+- [ ] Front-end
+- [ ] Back-end
 
 ## High level guidelines
 
