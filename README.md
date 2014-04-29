@@ -3,6 +3,8 @@
 
 These guides were created to streamline the development workflow at [Mkt Virtual](http://mktvirtual.com.br/). From code style to deployment, they cover every corner of our daily work.
 
+*This is an __early__ version, many things may change.*
+
 ## Table of Contents
 - [Style](https://github.com/hugobessaa/guides/tree/master/style)
     - [General](https://github.com/hugobessaa/guides/tree/master/style/general)
