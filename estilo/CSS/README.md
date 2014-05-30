@@ -2,13 +2,13 @@
 > códigos de estilo estilosos
 
 ## Sumário
-- [Formatação](#formatacao)
+- [Formatação](#formata%C3%A7%C3%A3o)
 - [Seletores](#seletores)
-- [Ordenação](#ordenacao)
-- [Organização](#organizacao)
-- [Referências](#referencias)
+- [Ordenação](#ordena%C3%A7%C3%A3o)
+- [Organização](#organiza%C3%A7%C3%A3o)
+- [Referências](#refer%C3%AAncias)
 
-[[⬅︎ Voltar para Estilo]](https://github.com/hugobessaa/guides/tree/master/estilo)
+[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)
 
 ## Formatação
 - Use [Sass](http://sass-lang.com/).
@@ -126,7 +126,7 @@
     }
     ```
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Seletores
 
@@ -239,7 +239,7 @@
     }
     ```
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Ordenação 
 - Coloque `@extend` e `@include` no topo da sua lista de declarações.
@@ -271,7 +271,7 @@
 - Use ordenação por relevância para propriedades, NÃO alfabética.
     - Para elementos `box`, propriedades de dimensionamento são mais importantes do que aquelas que estilizam o texto. Em elementos `inline` é o oposto. Ao ordenar por relevância, você facilita a leitura das propriedades.
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Organização
 - Use [Normalize](http://necolas.github.io/normalize.css/) como um browser reset. [(?)](http://nicolasgallagher.com/about-normalize-css/)
@@ -306,7 +306,7 @@
 - Avoid having files longer than 100 lines.
     - More than that you are probably doing it wrong. Abstract components. Always.
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Referências
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
@@ -314,4 +314,4 @@
 - [Guides por Thoughtbot](https://github.com/thoughtbot/guides/tree/master/style)
     - Este guia também é uma adaptação do Guides da Thoughtbot.
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)

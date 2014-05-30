@@ -4,10 +4,10 @@
 ## Sumário
 
 - [Idioma](#idioma)
-- [Formatação](#formatacao)
-- [Ordenação](#ordenacao)
+- [Formatação](#formata%C3%A7%C3%A3o)
+- [Ordenação](#ordena%C3%A7%C3%A3o)
 
-[[⬅︎ Voltar para Estilo]](https://github.com/hugobessaa/guides/tree/master/estilo)
+[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)
 
 ## Idioma
 
@@ -157,10 +157,10 @@
     var user = {};
     ```
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Ordenação
 - Ordene métodos para que os métodos que chamam estejam antes que os métodos que eles chamam no arquivo.
 - Ordene métodos para que eles estejam o mais perto possível daqueles que eles chamam.
 
-[[⬆︎ Topo]](#sumario)
+[[⬆︎ Topo]](#sum%C3%A1rio)

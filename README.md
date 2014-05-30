@@ -7,9 +7,9 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 
 ## Sumário
 
-### [Estilo](https://github.com/hugobessaa/guides/tree/master/estilo)
-- [x] [Geral](https://github.com/hugobessaa/guides/tree/master/estilo/geral)
-- [x] [CSS](https://github.com/hugobessaa/guides/tree/master/estilo/CSS)
+### [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
+- [x] [Geral](https://github.com/mktvirtual/guides/tree/master/estilo/geral)
+- [x] [CSS](https://github.com/mktvirtual/guides/tree/master/estilo/CSS)
 - [ ] Javascript
 - [ ] PHP
 
