@@ -11,6 +11,18 @@
 
 ## Formatação
 
+- Prefira a unidade `em`.
+    - Quando usamos `em` nossos componentes podem se adaptar facilmente a mudanças no font-size. Eles são ótimos em breakpoints de `@media` queries também, já que eles são aplicados enquanto damos zoom no browser.
+
+    ```scss
+    // bad
+    font-size: 32px;
+    font-size: 2rem;
+
+    // good
+    font-size: 2em;
+    ```
+
 - Prefira propriedades explícitas.
     - Use `margin-bottom: 0` e `background-color: $color-brand` para ser o mais explícito possível. Use abreviações (`margin: 0`) apenas quando necessário.
 
