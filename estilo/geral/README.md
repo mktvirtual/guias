@@ -1,15 +1,23 @@
-# General
-> general guidelines to write beautiful code
+# Geral
+> diretrizes gerais para escrever código bonito
 
-## Table of Contents
+## Sumário
 
-- [Formating](#formatting)
-- [Order](#order)
+- [Idioma](#idioma)
+- [Formatação](#formatacao)
+- [Ordenação](#ordenacao)
 
-[[⬅︎ Back to Style]](https://github.com/hugobessaa/guides/tree/master/style)
+[[⬅︎ Voltar para Estilo]](https://github.com/hugobessaa/guides/tree/master/estilo)
 
-## Formatting
-- Don't misspell.
+## Idioma
+
+- Escreva código em inglês.
+    - Todo código deve estar em inglês, incluindo documentação, comentários, nomes de variáveis e atributos de objetos.
+    - Sinta-se livre para criar traduções se for realmente importante.
+
+## Formatação
+
+- Não cometa erros de ortografia.
     ```javascript
     // bad
     var messagi;
@@ -18,7 +26,7 @@
     var message;
     ```
 
-- Avoid inline comments.
+- Evite comentários na mesma linha
     ```javascript
     var list = []; // bad
 
@@ -26,17 +34,17 @@
     var list = [];
     ```
 
-- Break long lines after 80 characters.
+- Quebre linhas com mais de 80 caracteres
     ```javascript
     // bad
     var message = 'this is a very long message that will probably hurt this style guide so I can explain how to properly use it';
 
     // good
     var message = 'this is a very long message that was broken'+
-        'to not hurt this style guide';
+        ' to not hurt this style guide';
     ```
 
-- Delete trailing whitespace.
+- Exclua espaços após o final da linha
     ```javascript
     // bad
     if (user.name === 'Bruno') {
@@ -53,7 +61,7 @@
     }
     ```
 
-- Use 4 space indentation (no tabs).
+- Use 4 espaços para indentação (não `tab`)
     ```javascript
     // bad
     for (var i = 0, len = obj.length; i < len; i++) {
@@ -66,7 +74,7 @@
     }
     ```
 
-- Indent continued lines with 4 spaces.
+- Indente linhas contínuas com 4 espaços.
     ```javascript
     // bad
     var $users = $('.user'),
@@ -77,7 +85,7 @@
     ∙∙∙∙$posts = $('.post');
     ```
 
-- Use empty lines around multi-line blocks.
+- Use linhas em branco em volta de blocos com múltiplas linhas
     ```scss
     // bad
     .user {
@@ -101,7 +109,7 @@
     }
     ```
 
-- Use spaces around operators, after commas, after colons and semicolons, around `{` and before `}`.
+- Use espaços em volta de operadores, depois de vírgulas, depois de dois-pontos e ponto-e-virgulas, em volta de `{` e antes de `}`.
     ```javascript
     // bad
     var i,total=10,obj=[];
@@ -116,7 +124,7 @@
     }
     ```
 
-- Don't include spaces after `(`, `[` or before `]`, `)`.
+- Não use espaços depois de `(`, `[` ou antes de `]`, `)`.
     ```javascript
     var messages = [
         'please do not do that',
@@ -129,7 +137,7 @@
     console.log(messages[0]);
     ```
 
-- Avoid abbreviations.
+- Evite abreviações.
     ```javascript
     // bad
     var l = [],
@@ -140,7 +148,7 @@
         users = {};
     ```
 
-- Avoid object types in names.
+- Evite usar o tipo do objeto no nome da variável.
     ```javascript
     // bad
     var userObject = {};
@@ -149,10 +157,10 @@
     var user = {};
     ```
 
-[[⬆︎ Back to Top]](#table-of-contents)
+[[⬆︎ Topo]](#sumario)
 
-## Order
-- Order methods so that caller methods are earlier in the file than the methods they call.
-- Order methods so that methods are as close as possible to other methods they call.
+## Ordenação
+- Ordene métodos para que os métodos que chamam estejam antes que os métodos que eles chamam no arquivo.
+- Ordene métodos para que eles estejam o mais perto possível daqueles que eles chamam.
 
-[[⬆︎ Back to Top]](#table-of-contents)
+[[⬆︎ Topo]](#sumario)
