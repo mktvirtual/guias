@@ -13,9 +13,9 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 - [ ] Javascript
 - [ ] PHP
 
-### Boas práticas
+### [Boas práticas](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
 - [ ] Geral
-- [ ] CSS
+- [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
 - [ ] Git
 - [ ] Javascript
 - [ ] PHP
