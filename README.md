@@ -35,7 +35,7 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 ## Linguagem
 
 - "Evite": não use a não ser que você tenha uma boa razão.
-- "Não […]": nunca há uma boa razão.
+- "Não": nunca há uma boa razão.
 - "Prefira": indica uma opção melhor e é uma boa alternativa.
 - "Use": é uma instrução positiva.
 
