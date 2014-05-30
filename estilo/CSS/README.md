@@ -27,6 +27,38 @@
     $color-user = #f00;
     ```
 
+- Use aspas duplas
+    ```scss
+    // bad
+    .nav:after,
+    [type='text'],
+    [class^='...'] {
+        content: '';
+    }
+
+    // good
+    .nav:after,
+    [type="text"],
+    [class^="..."] {
+        content: "";
+    }
+    ```
+
+- Use uma declaração por linha
+    ```scss
+    // bad
+    .nav, .nav--inline, .nav--stacked {
+        // ...
+    }
+
+    // good
+    .nav,
+    .nav--inline,
+    .nav--stacked {
+        // ...
+    }
+    ```
+
 - Use espaço entre uma propriedade e seu valor.
     ```scss
     .post {
@@ -36,18 +68,6 @@
         // good
         background-color: #00f;
     }
-    ```
-
-- Prefira a unidade `em`.
-    - Quando usamos `em` nossos componentes podem se adaptar facilmente a mudanças no font-size. Eles são ótimos em breakpoints de `@media` queries também, já que eles são aplicados enquanto damos zoom no browser.
-
-    ```scss
-    // bad
-    font-size: 32px;
-    font-size: 2rem;
-
-    // good
-    font-size: 2em;
     ```
 
 - Prefira cores em hexadecimal, quando possível.
