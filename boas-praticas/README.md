@@ -4,6 +4,7 @@
 ## Sumário
 - Geral
 - [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
+- Git
 - Javascript
 - PHP
 
