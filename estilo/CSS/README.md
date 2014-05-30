@@ -202,8 +202,8 @@
     - Antes de escrever um código específico para uma página, se pergunte se isto não é apenas uma variação de algum componente. Se for, introduza a variação ao componente.
     - Sempre converse com o designer, desde o início do projeto, sobre padronizar componentes.
 
-- Avoid having files longer than 100 lines.
-    - More than that you are probably doing it wrong. Abstract components. Always.
+- Evite ter arquivos com mais de 150 linhas.
+    - Mais do que isso e você provavelmente está fazendo errado. Abstraia componentes. Sempre.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
