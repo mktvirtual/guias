@@ -4,6 +4,7 @@
 ## Sumário
 - [Mantendo um repositório](#mantendo-um-reposit%C3%B3rio)
 - [Commits](#commits)
+- [Fluxo](#fluxo)
 - [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
@@ -45,6 +46,45 @@
     1. Por que essa alteração é necessária?
     1. Como essa alteração resolve o problema?
     1. Quais os efeitos colaterais desta alteração?
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
+## Fluxo
+
+1. Crie uma *feature branch* local.
+    ```
+    git checkout master
+    git pull
+    git checkout -b <branch-name>
+    ```
+
+1. Realize um *rebase* frequentemente para incorporar mudanças.
+    ```
+    git fetch origin
+    git rebase origin/master
+    ```
+
+1. Adicione suas alterações.
+    ```
+    git add --all
+    ```
+
+1. Escreva uma [boa mensagem de commit](#commits)
+
+1. Compartilhe a sua branch.
+    ```
+    git push origin <branch-name>
+    ```
+
+1. Remova a branch remota
+    ```
+    git branch --delete <branch-name>
+    ```
+
+1. Remova sua branch local
+    ```
+    git push origin --delete <branch-name>
+    ```
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
