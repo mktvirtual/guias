@@ -2,7 +2,9 @@
 > Git do jeito correto
 
 ## Sumário
+- [Mantendo um repositório](#mantendo-um-reposit%C3%B3rio)
 - [Commits](#commits)
+- [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
 
@@ -15,6 +17,8 @@
 - Trabalhe em uma *feature branch*.
 
 - Baixe atualizações dos remotes frequentemente.
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Commits
 
@@ -42,6 +46,10 @@
     1. Como essa alteração resolve o problema?
     1. Quais os efeitos colaterais desta alteração?
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Referências
 
 - [Guides/protocol/git por Toughtbot](https://github.com/thoughtbot/guides/tree/master/protocol/git)
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
