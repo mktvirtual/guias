@@ -7,23 +7,23 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 
 ## Sumário
 
-### [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
-- [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/estilo/geral)
-- [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/estilo/CSS)
-- [ ] Javascript
-- [ ] PHP
+- [ ] [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
+    - [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/estilo/geral)
+    - [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/estilo/CSS)
+    - [ ] Javascript
+    - [ ] PHP
 
-### [Boas práticas](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
-- [ ] Geral
-- [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
-- [ ] [Git](https://github.com/mktvirtual/guides/tree/master/boas-praticas/git)
-- [ ] Javascript
-- [ ] PHP
+- [ ] [Boas práticas](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
+    - [ ] Geral
+    - [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
+    - [ ] [Git](https://github.com/mktvirtual/guides/tree/master/boas-praticas/git)
+    - [ ] Javascript
+    - [ ] PHP
 
-### Workflow
-- [ ] Geral
-- [ ] Front-end
-- [ ] Back-end
+- [ ] Workflow
+    - [ ] Geral
+    - [ ] Front-end
+    - [ ] Back-end
 
 ## Diretrizes gerais
 
