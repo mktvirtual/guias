@@ -41,3 +41,7 @@
     1. Por que essa alteração é necessária?
     1. Como essa alteração resolve o problema?
     1. Quais os efeitos colaterais desta alteração?
+
+## Referências
+
+- [Guides/protocol/git por Toughtbot](https://github.com/thoughtbot/guides/tree/master/protocol/git)
