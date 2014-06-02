@@ -10,7 +10,7 @@
 ## Formatação
 
 - Use ponto-e-vírgula
-    ```
+    ```javascript
     // bad
     var me = $(this)
     test()
@@ -21,7 +21,7 @@
     ```
 
 - Use aspas simples
-    ```
+    ```javascript
     // bad
     var string = "<p class='foo'>Lorem Ipsum</p>";
     var noteClick = me.attr("data-note");
@@ -32,7 +32,7 @@
     ```
 
 - Use `{}` em todos os blocos
-    ```
+    ```javascript
     // bad
     if (condition) statement;
     else if (condition) statement;
@@ -49,7 +49,7 @@
     ```
 
 - Use `/** ... */` para comentários em múltiplas linhas. Inclua uma descrição, especifique tipos e valores para todos os parâmetros e retornos.
-    ```
+    ```javascript
     // bad
     // make() returns a new element
     // based on the passed in tag name
@@ -80,7 +80,7 @@
     ```
 
 - Use `//` para comentários em uma única linha, acima do seu contexto. Adicione uma linha em branco acima do comentário.
-    ```
+    ```javascript
     // bad
     var active = true;  // is current tab
 
@@ -109,7 +109,7 @@
     ```
 
 - Não utilize vírgulas na frente da linha.
-    ```
+    ```javascript
     // bad
     var once
         , upon
@@ -138,7 +138,7 @@
     ```
 
 - Prefixe objetos jQuery com `$`
-    ```
+    ```javascript
     // bad
     var sidebar = $('.sidebar');
 
