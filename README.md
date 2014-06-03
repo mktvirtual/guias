@@ -20,7 +20,7 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
     - [ ] [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas/javascript)
     - [ ] PHP
 
-- [ ] Workflow
+- [ ] Ferramentas
     - [ ] Geral
     - [ ] Front-end
     - [ ] Back-end
