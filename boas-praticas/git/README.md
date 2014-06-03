@@ -90,6 +90,7 @@
 
 ## Referências
 
-- [Guides/protocol/git por Toughtbot](https://github.com/thoughtbot/guides/tree/master/protocol/git)
+- [Guides por Toughtbot](https://github.com/thoughtbot/guides/tree/master/protocol/git)
+    - Este guia também é uma adaptação do Guides da Thoughtbot.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
