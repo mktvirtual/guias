@@ -5,7 +5,7 @@
 
 - [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
 - [Git](https://github.com/mktvirtual/guides/tree/master/boas-praticas/git)
-- [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
+- [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas/javascript)
 - PHP
 
 [[⬅︎ Voltar para Guias]](https://github.com/mktvirtual/guides)
