@@ -143,10 +143,8 @@ dog.say = function () {
 
 dog.fleas = true;
 ```
-[Objeto literal](#objeto%20literal)
 
-[[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
-
+[[⬆︎ Topo]](#escopo)
 
 ----------
 
