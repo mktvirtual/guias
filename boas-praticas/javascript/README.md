@@ -11,31 +11,20 @@
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
 
+## Variáveis
 
-## Formatação
+- Use `var` para declarar variáveis.
+    - Quando você declara uma variável sem `var`, ela vaza para o escopo global.
+    ```javascript
+    // bad
+    me = 'globalization';
 
-- Use colchetes na mesma linha da sentença:
-
-    Normalmente os programadores possuem divergências quanto à esse tema, em demais linguagens de programação, mas no javascript como o ponto e vírgula ao final é implícito, podemos ter alguns resultados inesperados, como no exemplo abaixo:
-
-```
-// bad - the function returns undefined and not an object with a name property
-function func() 
-{
-    return
-    {
-        name: "Batman"
-    }; 
-}
-
-// good
-function func() { return {
-    name: "Batman" };
-}
-```
-[[⬆︎ Topo]](#formata%C3%A7%C3%A3o)
+    // good
+    var me = 'better this way';
+    ```
 
 ## Escopo
+
 - Javascript não possui classes por padrão, ele não é orientado a objetos mas possui o conteito de herança baseada em protótipos.
 
 ```
