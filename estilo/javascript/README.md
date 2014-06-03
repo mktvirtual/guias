@@ -152,6 +152,6 @@
 ## Referências
 
 - [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
-    - Grande parte dos exemplos daqui vieram deste ótimo guia por @LFeh
+    - Grande parte dos exemplos daqui vieram deste ótimo guia por [@LFeh](https://github.com/LFeh)
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
