@@ -147,6 +147,37 @@
     var $sidebar = $('.sidebar');
     ```
 
+- Use variáveis em `lowerCamelCase`
+    ```javascript
+    // bad
+    var main_title, maintitle;
+
+    // good
+    var mainTitle;
+    ```
+
+- Use `{` na mesma linha da sentença.
+    ```javascript
+    // bad
+    // the function returns undefined and not an object with a name property
+    function func() 
+    {
+        return
+        {
+            name: "Batman"
+        }; 
+    }
+    // => undefined
+
+    // good
+    function func() { 
+        return {
+            name: "Batman"
+        };
+    }
+    // => { name: "Batman" }
+    ```
+
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Referências
