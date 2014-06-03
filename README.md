@@ -20,9 +20,9 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
     - [ ] [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas/javascript)
     - [ ] PHP
 
-- [ ] Ferramentas
-    - [ ] Geral
-    - [ ] Front-end
+- [ ] [Ferramentas](https://github.com/mktvirtual/guides/tree/master/ferramentas)
+    - [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/ferramentas#geral)
+    - [ ] [Front-end](https://github.com/mktvirtual/guides/tree/master/ferramentas#front-end)
     - [ ] Back-end
 
 ## Diretrizes gerais
