@@ -9,7 +9,7 @@
 - [Objeto literal](#objeto-literal)
 - [Referências](#refer%C3%AAncias)
 
-[[⬆︎ Topo]](#sum%C3%A1rio)
+[[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
 
 
 ## Formatação
