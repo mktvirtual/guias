@@ -3,6 +3,7 @@
 
 ## Sumário
 - [Formatação](#formata%C3%A7%C3%A3o)
+- [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)
 
@@ -145,3 +146,8 @@
     // good
     var $sidebar = $('.sidebar');
     ```
+
+## Referências
+
+- [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
+    - Grande parte dos exemplos daqui vieram deste ótimo guia por @LFeh
