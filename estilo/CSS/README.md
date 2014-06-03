@@ -27,7 +27,7 @@
     $color-user = #f00;
     ```
 
-- Use aspas duplas
+- Use aspas duplas.
     ```scss
     // bad
     .nav:after,
@@ -44,7 +44,7 @@
     }
     ```
 
-- Use uma declaração por linha
+- Use uma declaração por linha.
     ```scss
     // bad
     .nav, .nav--inline, .nav--stacked {
@@ -186,7 +186,7 @@
 - Coloque pseudo seletores em terceiro.
     - `.post:hover`
 
-- Coloque seletores aninhados por último
+- Coloque seletores aninhados por último.
     - `.post .title`
 
 - Use ordenação por relevância para propriedades, NÃO alfabética.

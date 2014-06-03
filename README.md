@@ -31,7 +31,7 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 - Não reescreva código existente para seguir estes guias.
 - Não viole diretrizes sem uma boa razão.
 - Uma razão é boa quando você pode convencer alguém da equipe.
-- Leia todos os anexos indicados por "(?)"
+- Leia todos os anexos indicados por "(?)".
 
 ## Linguagem
 

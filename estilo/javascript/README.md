@@ -10,7 +10,7 @@
 
 ## Formatação
 
-- Use ponto-e-vírgula
+- Use ponto-e-vírgula.
     ```javascript
     // bad
     var me = $(this)
@@ -21,7 +21,7 @@
     test();
     ```
 
-- Use aspas simples
+- Use aspas simples.
     ```javascript
     // bad
     var string = "<p class='foo'>Lorem Ipsum</p>";
@@ -32,7 +32,7 @@
     var noteClick = me.attr('data-note');
     ```
 
-- Use `{}` em todos os blocos
+- Use `{}` em todos os blocos.
     ```javascript
     // bad
     if (condition) statement;
@@ -138,7 +138,7 @@
     };
     ```
 
-- Prefixe objetos jQuery com `$`
+- Prefixe objetos jQuery com `$`.
     ```javascript
     // bad
     var sidebar = $('.sidebar');
@@ -152,6 +152,6 @@
 ## Referências
 
 - [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
-    - Grande parte dos exemplos daqui vieram deste ótimo guia por [@LFeh](https://github.com/LFeh)
+    - Grande parte dos exemplos daqui vieram deste ótimo guia por [@LFeh](https://github.com/LFeh).
 
 [[⬆︎ Topo]](#sum%C3%A1rio)

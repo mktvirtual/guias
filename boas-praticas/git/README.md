@@ -69,19 +69,19 @@
     git add --all
     ```
 
-1. Escreva uma [boa mensagem de commit](#commits)
+1. Escreva uma [boa mensagem de commit](#commits).
 
 1. Compartilhe a sua branch.
     ```
     git push origin <branch-name>
     ```
 
-1. Remova a branch remota
+1. Remova a branch remota.
     ```
     git branch --delete <branch-name>
     ```
 
-1. Remova sua branch local
+1. Remova sua branch local.
     ```
     git push origin --delete <branch-name>
     ```

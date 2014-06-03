@@ -26,7 +26,7 @@
     var message;
     ```
 
-- Evite comentários na mesma linha
+- Evite comentários na mesma linha.
     ```javascript
     var list = []; // bad
 
@@ -34,7 +34,7 @@
     var list = [];
     ```
 
-- Quebre linhas com mais de 80 caracteres
+- Quebre linhas com mais de 80 caracteres.
     ```javascript
     // bad
     var message = 'this is a very long message that will probably hurt this style guide so I can explain how to properly use it';
@@ -44,7 +44,7 @@
         ' to not hurt this style guide';
     ```
 
-- Exclua espaços após o final da linha
+- Exclua espaços após o final da linha.
     ```javascript
     // bad
     if (user.name === 'Bruno') {
@@ -61,7 +61,7 @@
     }
     ```
 
-- Use 4 espaços para indentação (não `tab`)
+- Use 4 espaços para indentação (não `tab`).
     ```javascript
     // bad
     for (var i = 0, len = obj.length; i < len; i++) {
@@ -85,7 +85,7 @@
     ∙∙∙∙$posts = $('.post');
     ```
 
-- Use linhas em branco em volta de blocos com múltiplas linhas
+- Use linhas em branco em volta de blocos com múltiplas linhas.
     ```scss
     // bad
     .user {

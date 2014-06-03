@@ -30,7 +30,7 @@
 
 ## Seletores
 
-- Use seletores por classes
+- Use seletores por classes.
     - Classes são extensíveis e altamente reutilizáveis. Elas são suas melhores amigas no CSS.
 
 - Evite seletores por tags.
@@ -55,7 +55,7 @@
     }
     ```
 
-- Evite `!important`
+- Evite `!important`.
     - Não há problema em usar `!important` em uma classe de ajuda.
     - It is okay to use `!important` on helper classes only. Utilizar `!important` preventivamente é aceitável, como `.error { color: red !important }`, já que você sabe que sempre irá querer que a regra seja aplicada.
 
