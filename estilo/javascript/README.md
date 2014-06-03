@@ -147,7 +147,11 @@
     var $sidebar = $('.sidebar');
     ```
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Referências
 
 - [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
     - Grande parte dos exemplos daqui vieram deste ótimo guia por @LFeh
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
