@@ -6,7 +6,7 @@
 
 - [Formatação](#formata%C3%A7%C3%A3o)
 - [Escopo](#escopo)
-- [Objeto literal](#objeto%20literal)
+- [Objeto literal](#objeto-literal)
 - [Referências](#refer%C3%AAncias)
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
