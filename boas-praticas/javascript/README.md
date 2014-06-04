@@ -23,6 +23,44 @@
     var me = 'better this way';
     ```
 
+- Declare variáveis acima de sua chamada.
+    - Isto impede o [*variable hoisting*](http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092)
+    ```javascript
+    // bad
+    var john = person; // => null
+
+    // bad
+    var john = person; // => undefined
+    var person = { age: 23 };
+
+    // good
+    var person = { age: 23 };
+    var john = person; // => { age: 23 }
+    ```
+
+- Evite variáveis globais.
+    - Ao atingirem o escopo global, as variáveis podem ser acessadas por qualquer um. Além disso, uma variável pode tomar o valor de outra se tiverem o mesmo nome. Evite ao máximo expor variáveis globalmente.
+
+- Use *Immediately-Invoked Function Expression* para expor somente as variáveis necessárias ao escopo global. [(?)](http://gregfranko.com/blog/i-love-my-iife/)
+    ```javascript
+    (function(){
+        var Person = {
+            // ...
+        }
+        
+        var PublicPerson = {
+            // ...
+        }
+        window.PublicPerson = PublicPerson;
+
+        console.log(Person); // => Person
+        console.log(PublicPerson); // => PublicPerson
+    }());
+
+    console.log(Person); // => ReferenceError: Person is not defined
+    console.log(PublicPerson); // => PublicApp
+    ```
+
 ## Escopo
 
 - Javascript não possui classes por padrão, ele não é orientado a objetos mas possui o conteito de herança baseada em protótipos.
