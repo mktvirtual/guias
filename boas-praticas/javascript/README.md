@@ -61,6 +61,31 @@
     console.log(PublicPerson); // => PublicPerson
     ```
 
+## Condicionais
+
+- Prefira `===` e `!==` em comparações estritas. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
+    ```
+    // bad
+    5 == '5'; // => true
+    5 == 6; // => false
+    5 == 5; // => true
+
+    0 == false; // => true
+    0 == ''; // => true
+    0 == 0; // => true
+    0 == 1; // => false
+
+    // good
+    5 === '5'; // => false
+    5 === 6; // => false
+    5 === 5; // => true
+
+    0 === false; // => false
+    0 === ''; // => false
+    0 === 0; // => true
+    ```
+
+
 ## Escopo
 
 - Javascript não possui classes por padrão, ele não é orientado a objetos mas possui o conteito de herança baseada em protótipos.
