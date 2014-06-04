@@ -83,7 +83,7 @@
 ## Condicionais
 
 - Prefira `===` e `!==` em comparações estritas. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
-    ```
+    ```javascript
     // bad
     5 == '5'; // => true
     5 == 6; // => false
