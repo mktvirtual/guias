@@ -180,6 +180,39 @@
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
+## Variáveis
+
+- Use `lowerCamelCase` para variáveis normais.
+    ```javascript
+    // bad
+    var table_prefix = 'table-';
+    var tableprefix = 'table-';
+    var TablePrefix = 'table-';
+
+    // good
+    var tablePrefix = 'table-';
+    ```
+
+- Use `UpperCamelCase` para "classes".
+    ```javascript
+    // bad
+    var app = { /* ... */ };
+
+    // good
+    var App = { /* ... */ };
+    ```
+
+## Manipulação do DOM
+
+- Use prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
+    ```javascript
+    // bad
+    var $button = $('.button');
+
+    // good
+    var $button = $('.js-button');
+    ```
+
 ## Referências
 
 - [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
