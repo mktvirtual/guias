@@ -180,9 +180,9 @@
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
-## Variáveis
+## Nomenclatura
 
-- Use `lowerCamelCase` para variáveis normais.
+- Use `camelCase` para variáveis normais.
     ```javascript
     // bad
     var table_prefix = 'table-';
@@ -193,7 +193,7 @@
     var tablePrefix = 'table-';
     ```
 
-- Use `UpperCamelCase` para "classes".
+- Use `PascalCase` para "classes".
     ```javascript
     // bad
     var app = { /* ... */ };
