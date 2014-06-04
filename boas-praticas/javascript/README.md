@@ -58,7 +58,7 @@
     }());
 
     console.log(Person); // => ReferenceError: Person is not defined
-    console.log(PublicPerson); // => PublicApp
+    console.log(PublicPerson); // => PublicPerson
     ```
 
 ## Escopo
