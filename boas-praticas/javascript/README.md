@@ -61,6 +61,25 @@
     console.log(PublicPerson); // => PublicPerson
     ```
 
+- Prefira objetos a muitos parâmetros.
+    ```javascript
+    // bad
+    var setUserInfo = function(user, firstName, lastName, birthDay, gender) {
+        user.firstName = firstName;
+        user.lastName = lastName;
+        
+        // ...
+    };
+
+    // good
+    var setUserInfo = function(user, info){
+        user.firstName = info.firstName;
+        user.lastName = info.lastName;
+        
+        // ...
+    };
+    ```
+
 ## Condicionais
 
 - Prefira `===` e `!==` em comparações estritas. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
