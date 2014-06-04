@@ -104,6 +104,53 @@
     0 === 0; // => true
     ```
 
+## jQuery
+
+- Faça cache de objetos jQuery.
+    ```javascript
+    // bad
+    function setSidebar() {
+        $('.sidebar').hide();
+
+        // ...stuff...
+
+        $('.sidebar').css({
+            'background-color': 'pink'
+        });
+    }
+
+    // good
+    function setSidebar() {
+        var $sidebar = $('.sidebar');
+        $sidebar.hide();
+
+        // ...stuff...
+
+        $sidebar.css({
+            'background-color': 'pink'
+        });
+    }
+    ```
+
+- Prefira DOM queries. Use `find` em objetos jQuery já existentes. [Teste no jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16).
+    ```javascript
+    // bad
+    $('ul', '.sidebar').hide();
+
+    // bad
+    $('.sidebar').find('ul').hide();
+
+    // good
+    $('.sidebar ul').hide();
+
+    // good
+    $('.sidebar > ul').hide();
+
+    // good
+    $sidebar.find('ul').hide();
+    ```
+
+- 
 
 ## Escopo
 
