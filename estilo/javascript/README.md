@@ -202,6 +202,15 @@
     var App = { /* ... */ };
     ```
 
+- Use `UPPER_CASE` para constantes.
+    ```javascript
+    // bad
+    var maxWidth = 300;
+
+    // good
+    var MAX_WIDTH = 300;
+    ```
+
 ## Manipulação do DOM
 
 - Use prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
