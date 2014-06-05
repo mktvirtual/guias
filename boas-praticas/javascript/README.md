@@ -111,7 +111,7 @@
 
 ## Objetos
 
-- Use a sintaxe literal para declarar objetos
+- Use a sintaxe literal para declarar objetos.
     ```javascript
     // bad
     var item = new Object();
@@ -185,7 +185,7 @@
 
 ## Arrays
 
-- Use a sintaxe literal para declarar arrays
+- Use a sintaxe literal para declarar arrays.
     ```javascript
     // bad
     var list = new Array();
@@ -194,7 +194,7 @@
     var list = [];
     ```
 
-- Use `Array.push()` se você não sabe o `length`
+- Use `Array.push()` se você não sabe o `length`.
     ```javascript
     var someStack = [];
 
