@@ -80,6 +80,8 @@
     };
     ```
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Condicionais
 
 - Prefira `===` e `!==` em comparações. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
@@ -103,6 +105,8 @@
     0 === '';        // => false
     0 === 0;         // => true
     ```
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## jQuery
 
@@ -149,6 +153,8 @@
     // good
     $sidebar.find('ul').hide();
     ```
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Objetos
 
@@ -222,6 +228,8 @@
     }
     ```
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Arrays
 
 - Use a sintaxe literal para declarar arrays
@@ -244,9 +252,12 @@
     someStack.push('abracadabra');
     ```
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Referências
 
 - [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 - [Book: Build Better Apllications with Coding and Design Patterns | JavaScript Patterns Stoyan Stefanov, O'Reilly](http://shop.oreilly.com/product/9780596806767.do)
+
+[[⬆︎ Topo]](#sum%C3%A1rio)

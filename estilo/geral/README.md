@@ -15,6 +15,8 @@
     - Todo código deve estar em inglês, incluindo documentação, comentários, nomes de variáveis e atributos de objetos.
     - Sinta-se livre para criar traduções se for realmente importante.
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Formatação
 
 - Não cometa erros de ortografia.

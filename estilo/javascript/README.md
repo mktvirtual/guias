@@ -211,6 +211,8 @@
     var MAX_WIDTH = 300;
     ```
 
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
 ## Manipulação do DOM
 
 - Use prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
@@ -221,6 +223,8 @@
     // good
     var $button = $('.js-button');
     ```
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
 
 ## Referências
 
