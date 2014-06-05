@@ -222,6 +222,29 @@
     }
     ```
 
+## Arrays
+
+- Use a sintaxe literal para declarar arrays
+    ```javascript
+    // bad
+    var list = new Array();
+
+    // good
+    var list = [];
+    ```
+
+- Use `Array.push()` se você não sabe o `length`
+    ```javascript
+    var someStack = [];
+
+    // bad
+    someStack[someStack.length] = 'abracadabra';
+
+    // good
+    someStack.push('abracadabra');
+    ```
+
+
 ## Referências
 
 - [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
