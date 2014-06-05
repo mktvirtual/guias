@@ -82,26 +82,26 @@
 
 ## Condicionais
 
-- Prefira `===` e `!==` em comparações estritas. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
+- Prefira `===` e `!==` em comparações. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
     ```javascript
     // bad
-    5 == '5'; // => true
-    5 == 6; // => false
-    5 == 5; // => true
+    5 == '5';        // => true
+    5 == 6;          // => false
+    5 == 5;          // => true
 
-    0 == false; // => true
-    0 == ''; // => true
-    0 == 0; // => true
-    0 == 1; // => false
+    0 == false;      // => true
+    0 == '';         // => true
+    0 == ' \n\t\r '; // => true
+    0 == 1;          // => false
 
     // good
-    5 === '5'; // => false
-    5 === 6; // => false
-    5 === 5; // => true
+    5 === '5';       // => false
+    5 === 6;         // => false
+    5 === 5;         // => true
 
-    0 === false; // => false
-    0 === ''; // => false
-    0 === 0; // => true
+    0 === false;     // => false
+    0 === '';        // => false
+    0 === 0;         // => true
     ```
 
 ## jQuery
