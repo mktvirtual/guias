@@ -150,121 +150,77 @@
     $sidebar.find('ul').hide();
     ```
 
-- 
+## Objetos
 
-## Escopo
+- Use a sintaxe literal para declarar objetos
+    ```javascript
+    // bad
+    var item = new Object();
 
-- Javascript não possui classes por padrão, ele não é orientado a objetos mas possui o conteito de herança baseada em protótipos.
+    // good
+    var item = {};
+    ```
 
-```
-// bad
-var Bruno = new person()
+- Não use [palavras reservadas](http://es5.github.io/#x7.6.1) como chaves. Não funciona no IE8.
+    ```javascript
+    // bad
+    var superman = {
+        default: {
+            clark: 'kent'
+        },
+        private: true
+    };
 
-// good - você pode invocar uma função através do método new
-var bruno = new Person()
-```
+    // good
+    var superman = {
+        defaults: {
+            clark: 'kent'
+        },
+        hidden: true
+    };
+    ```
 
-Com isso, use nomes de funções que definam *"classes"* começando com letra maiúscula (*upper camel case*) e funções dentro do escopo, que definem métodos, começando por minúscula com as junções de termo em maiúscula (*lower camel case*).
+- Use sinônimos para palavras reservadas.
+    ```javascript
+    // bad
+    var superman = {
+        class: 'alien'
+    };
 
-```
-// bad 
-function car( model, year, km ) {
+    // bad
+    var superman = {
+        klass: 'alien'
+    };
 
-  this.Model = model;
-  this.Year = year;
-  this.KM = km;
- 
-}
- 
-car.prototype.to_string = function () {
-  return this.Model + " completou " + this.km + " km";
-};
+    // good
+    var superman = {
+        type: 'alien'
+    };
+    ```
 
-// good
-function Car( model, year, km ) {
+- Use *dot notation* (`user.name`) para acessar valores de propriedades com o nome conhecido.
+    ```javascript
+    var user = { name: 'john' };
 
-  this.model = model;
-  this.year = year;
-  this.km = km;
- 
-}
- 
-Car.prototype.toString = function () {
-  return this.model + " completou " + this.km + " km";
-};
- 
-// usage
-var fiesta = new Car( "Ford Fiesta", 2009, 20000 );
-var corsa = new Car( "Chevrolet Corsa", 2010, 5000 );
- 
-console.log( fiesta.toString() );
-console.log( corsa.toString() );
-```
+    // bad
+    console.log(user["name"]);
 
-Variáveis usadas para valores imutáveis dentro de todo o ciclo de vida do script, "constantes".
-```
-// bad
-    var pi = 3.14,
-        max_width = 800;
+    // good
+    console.log(user.name);
+    ```
 
-// good
-    var PI = 3.14,
-        MAX_WIDTH = 800;
-```
+- Use *bracket notation* (`user["name"]`) para acessar propriedades com o nome armazenado em uma variável.
+    ```javascript
+    var user = {
+        name: 'john',
+        age: 21
+    };
 
-[[⬆︎ Topo]](#escopo)
-
-## Objeto literal
-Usar objetos literais para definir uma estrutura de dados encapsulados ajuda bastante a estruturar bem o projeto e evitar conflitos entre nomes de funções, objetos e variáveis. É util também para modularizar seus scripts. Nome do objeto e dos métodos usando lower camel case.
-```
-// good
-var dog = {
-  name: "Benji",
-  getName: function () {
-    return this.name; 
-  }
-};
-```
-
-### Em casos específicos você pode precisar criar propriedades ou métodos em tempo durante a execução, veja os padrões recomendáveis:
-Inicializando o objeto
-```
-var dog = {};
-```
-definindo propriedade
-```
-dog.name = "Tobi";
-```
-adicionando método
-```
-dog.getName = function () {
-  return dog.name; 
-};
-```
-
-No exemplo acima estou definindo os métodos após a criação do objeto, dentro do ciclo de vida do script. É possível também redefinir valores e comportamentos:
-```
-dog.getName = function () {
-  return "Rex";
-};
-```
-
-Podemos deletar métodos do objeto em memória
-```
-delete dog.name;
-```
-Adicionar mais propriedades ou métodos
-```
-dog.say = function () {
-  return "Woof!"; 
-};
-
-dog.fleas = true;
-```
-
-[[⬆︎ Topo]](#escopo)
-
-----------
+    // good
+    for (var key in user) {
+        console.log(user[key]);
+    }
+    ```
 
 ## Referências
 
