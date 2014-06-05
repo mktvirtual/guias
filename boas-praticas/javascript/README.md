@@ -257,8 +257,11 @@
 
 ## Referências
 
-- [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
-- [Book: Build Better Apllications with Coding and Design Patterns | JavaScript Patterns Stoyan Stefanov, O'Reilly](http://shop.oreilly.com/product/9780596806767.do)
+- [Coding Style por @LFeh](https://github.com/LFeh/coding-style#js)
+    - Uma parte dos exemplos daqui vieram deste ótimo guia por [@LFeh](https://github.com/LFeh).
+- [Javascript por @airbnb](https://github.com/airbnb/javascript)
+    - Um guia muito completo sobre como escrever bom JavaScript
+- [[Livro] Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [[Livro] Build Better Applications with Coding and Design Patterns](http://shop.oreilly.com/product/9780596806767.do)
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
