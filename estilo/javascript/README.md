@@ -3,6 +3,8 @@
 
 ## Sumário
 - [Formatação](#formata%C3%A7%C3%A3o)
+- [Nomenclatura](#nomenclatura)
+- [Manipulação do DOM](#manipula%C3%A7%C3%A3o-do-dom)
 - [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)

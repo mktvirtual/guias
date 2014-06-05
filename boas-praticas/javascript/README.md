@@ -4,9 +4,10 @@
 
 ## Sumário
 
-- [Formatação](#formata%C3%A7%C3%A3o)
-- [Escopo](#escopo)
-- [Objeto literal](#objeto-literal)
+- [Variáveis](#vari%C3%A1veis)
+- [jQuery](#jquery)
+- [Objetos](#objetos)
+- [Arrays](#arrays)
 - [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
