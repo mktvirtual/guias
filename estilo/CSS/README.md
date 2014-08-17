@@ -200,21 +200,8 @@
 - Utilize um bom esquema para nomenclatura.
     - Um bom esquema para nomear suas classes é essencial. O preferido é o [BEM](https://github.com/csswizardry/CSS-Guidelines#naming-conventions), que é bem explícito e de fácil entendimento.
 
-- Divida blocos de código com comentários e 5 linhas em branco.
+- Divida blocos de código com comentários.
     ```scss
-    /*------------------------------------*\
-        #POST
-    \*------------------------------------*/
-
-    .post {
-        margin: 10px 0;
-        // ...
-    }
-
-
-
-
-
     /*------------------------------------*\
         #POST
     \*------------------------------------*/
