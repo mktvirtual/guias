@@ -11,7 +11,7 @@
 ## Geral
 
 - [Basecamp](https://basecamp.com/) - ferramenta de gerenciamento de projetos.
-- [Trello](trello.com) - organização colaborativa de tarefas.
+- [Trello](https://trello.com) - organização colaborativa de tarefas.
 - [Beanstalk](beanstalkapp.com) - versionamento de projetos com Git.
 - [GitHub](https://github.com) - versionamento de projetos Open Source com Git.
 
