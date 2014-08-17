@@ -70,17 +70,6 @@
     }
     ```
 
-- Prefira cores em hexadecimal, quando possível.
-    ```scss
-    // bad
-    color: white;
-    color: rgb(0, 0, 0);
-
-    // good
-    color: #fff;
-    color: rgba(0, 0, 0, 0.7);
-    ```
-
 - Use variáveis para cores, com o prefixo `color-`.
     ```scss
     // bad
