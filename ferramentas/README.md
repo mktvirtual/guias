@@ -14,6 +14,7 @@
 - [Trello](https://trello.com) - organização colaborativa de tarefas.
 - [Beanstalk](beanstalkapp.com) - versionamento de projetos com Git.
 - [GitHub](https://github.com) - versionamento de projetos Open Source com Git.
+- [BrowserStack](https://browserstack.com) - testes em ambientes Windows.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
