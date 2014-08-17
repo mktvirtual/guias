@@ -13,7 +13,7 @@
 
 - Evite versionar arquivos específicos do seu computador ou processo de desenvolvimento.
 
-- Exclua branches locais e remotas após o merge.
+- Exclua branches locais e remotas após o `merge`.
 
 - Trabalhe em uma *feature branch*.
 
@@ -40,16 +40,18 @@
 
 - Evite utilizar `git commit -m ""`.
     - Este comando impede que você escreva mensagens com múltiplas linhas com facilidade. Sem o `-m`, você escreverá suas mensagens no vi.
-    - Prefira `git commit --verbose`
 
-- Procure responder as seguintes perguntas na sua mensagem: [(?)](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+- Prefira `git commit --verbose`
+    - Poder ver o diff dos arquivos a serem commitados é uma grande facilidade.
+
+- Procure responder as seguintes perguntas na sua mensagem de commit: [(?)](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
     1. Por que essa alteração é necessária?
     1. Como essa alteração resolve o problema?
     1. Quais os efeitos colaterais desta alteração?
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
-## Fluxo
+## Fluxo de trabalho
 
 1. Crie uma *feature branch* local.
     ```
@@ -76,12 +78,12 @@
     git push origin <branch-name>
     ```
 
-1. Remova a branch remota.
+1. Remova sua branch local.
     ```
     git branch --delete <branch-name>
     ```
 
-1. Remova sua branch local.
+1. Remova a branch remota.
     ```
     git push origin --delete <branch-name>
     ```
@@ -92,5 +94,7 @@
 
 - [Guides por Toughtbot](https://github.com/thoughtbot/guides/tree/master/protocol/git)
     - Este guia também é uma adaptação do Guides da Thoughtbot.
+- [git-useful](https://github.com/hugobessaa/git-useful)
+    - Uma lista de comandos úteis para utilizar git no Terminal.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)

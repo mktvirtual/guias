@@ -28,15 +28,9 @@
     var message;
     ```
 
-- Evite comentários na mesma linha.
-    ```javascript
-    var list = []; // bad
+- Evite linhas com mais de 80 caracteres.
+    - As vezes é inevitável, mas quase sempre podemos ser mais explícitos e coesos ao dividir o código em mais linhas.
 
-    // good
-    var list = [];
-    ```
-
-- Quebre linhas com mais de 80 caracteres.
     ```javascript
     // bad
     var message = 'this is a very long message that will probably hurt this style guide so I can explain how to properly use it';
@@ -44,23 +38,6 @@
     // good
     var message = 'this is a very long message that was broken'+
         ' to not hurt this style guide';
-    ```
-
-- Exclua espaços após o final da linha.
-    ```javascript
-    // bad
-    if (user.name === 'Bruno') {
-        type = 'Samurai';∙∙∙
-    } else {
-        type = 'Human';∙
-    }
-
-    // good
-    if (user.name === 'Bruno') {
-        type = 'Samurai';
-    } else {
-        type = 'Human';
-    }
     ```
 
 - Use 4 espaços para indentação (não `tab`).

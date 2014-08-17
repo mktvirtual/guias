@@ -27,23 +27,6 @@
     $color-user = #f00;
     ```
 
-- Use aspas duplas.
-    ```scss
-    // bad
-    .nav:after,
-    [type='text'],
-    [class^='...'] {
-        content: '';
-    }
-
-    // good
-    .nav:after,
-    [type="text"],
-    [class^="..."] {
-        content: "";
-    }
-    ```
-
 - Use uma declaração por linha.
     ```scss
     // bad
@@ -70,6 +53,23 @@
     }
     ```
 
+- Use aspas duplas.
+    ```scss
+    // bad
+    .nav:after,
+    [type='text'],
+    [class^='...'] {
+        content: '';
+    }
+
+    // good
+    .nav:after,
+    [type="text"],
+    [class^="..."] {
+        content: "";
+    }
+    ```
+
 - Prefira cores em hexadecimal, quando possível.
     ```scss
     // bad
@@ -81,7 +81,7 @@
     color: rgba(0, 0, 0, 0.7);
     ```
 
-- Use variáveis para cores.
+- Use variáveis para cores, com o prefixo `color-`.
     ```scss
     // bad
     color: #c7f464;
@@ -91,16 +91,7 @@
     color: $color-lime;
     ```
 
-- Use o prefixo `color-` em variáveis de cor.
-    ```scss
-    // bad
-    $red: #f00;
-
-    // good
-    $color-red: #f00;
-    ```
-
-- Use nomes de variável com significado semântico.
+- Use nomes de variáveis com significado semântico.
     ```scss
     // bad
     $color-red: #f00;
@@ -162,7 +153,7 @@
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
-## Ordenação 
+## Ordenação
 - Coloque `@extend` e `@include` no topo da sua lista de declarações.
     ```scss
     // bad
@@ -189,7 +180,7 @@
 - Coloque seletores aninhados por último.
     - `.post .title`
 
-- Use ordenação por relevância para propriedades, NÃO alfabética.
+- Use ordenação por relevância para propriedades, não alfabética.
     - Para elementos `box`, propriedades de dimensionamento são mais importantes do que aquelas que estilizam o texto. Em elementos `inline` é o oposto. Ao ordenar por relevância, você facilita a leitura das propriedades.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
@@ -199,14 +190,31 @@
 - Crie arquivos para cada componente.
     - Isso facilita a organização dos seus estilos.
 
-- Use arquivos específicos de páginas para `@import`ar componentes.
+- Prefira `@import`ar todos os seus componentes em um só arquivo `main.css`.
+    - Importar em um só arquivo traz o grande benefício de utilizar qualquer componente em qualquer tela.
     ```scss
     @import "component";
     @import "component";
     ```
 
-- Divida blocos de código com comentários.
+- Utilize um bom esquema para nomenclatura.
+    - Um bom esquema para nomear suas classes é essencial. O preferido é o [BEM](https://github.com/csswizardry/CSS-Guidelines#naming-conventions), que é bem explícito e de fácil entendimento.
+
+- Divida blocos de código com comentários e 5 linhas em branco.
     ```scss
+    /*------------------------------------*\
+        #POST
+    \*------------------------------------*/
+
+    .post {
+        margin: 10px 0;
+        // ...
+    }
+
+
+
+
+
     /*------------------------------------*\
         #POST
     \*------------------------------------*/
@@ -217,8 +225,8 @@
     }
     ```
 
-- Evite código específico em arquivos para páginas.
-    - Se você dividir seus componentes em arquivos diferentes você poderá utilizá-los em outras páginas.
+- Evite código específico para páginas.
+    - Se você dividir bem seus componentes, você poderá utilizá-los em outras páginas se necessário.
     - Antes de escrever um código específico para uma página, se pergunte se isto não é apenas uma variação de algum componente. Se for, introduza a variação ao componente.
     - Sempre converse com o designer, desde o início do projeto, sobre padronizar componentes.
 

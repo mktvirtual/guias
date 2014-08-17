@@ -25,7 +25,7 @@
     ```
 
 - Declare variáveis acima de sua chamada.
-    - Isto impede o [*variable hoisting*](http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092)
+    - Isto impede o [*variable hoisting*](http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092).
     ```javascript
     // bad
     var john = person; // => null
@@ -48,7 +48,7 @@
         var Person = {
             // ...
         }
-        
+
         var PublicPerson = {
             // ...
         }
@@ -62,13 +62,16 @@
     console.log(PublicPerson); // => PublicPerson
     ```
 
+- Use ao menos o [Module Pattern](http://viralpatel.net/blogs/javascript-module-pattern/).
+    - É recomendado que você utilize [AMD](http://requirejs.org/docs/whyamd.html) ou [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) em seus projetos.
+
 - Prefira objetos a muitos parâmetros.
     ```javascript
     // bad
     var setUserInfo = function(user, firstName, lastName, birthDay, gender) {
         user.firstName = firstName;
         user.lastName = lastName;
-        
+
         // ...
     };
 
@@ -76,7 +79,7 @@
     var setUserInfo = function(user, info){
         user.firstName = info.firstName;
         user.lastName = info.lastName;
-        
+
         // ...
     };
     ```
@@ -120,7 +123,7 @@
     var item = {};
     ```
 
-- Não use [palavras reservadas](http://es5.github.io/#x7.6.1) como chaves. Não funciona no IE8.
+- Não use [palavras reservadas](http://es5.github.io/#x7.6.1) como chaves. Não funciona no IE 8.
     ```javascript
     // bad
     var superman = {

@@ -51,22 +51,9 @@
     }
     ```
 
-- Use `/** ... */` para comentários em múltiplas linhas. Inclua uma descrição, especifique tipos e valores para todos os parâmetros e retornos.
+- Use `/* comentários */`.
+    - Inclua uma descrição, especifique tipos e valores para todos os parâmetros e retornos de funções e métodos.
     ```javascript
-    // bad
-    // make() returns a new element
-    // based on the passed in tag name
-    //
-    // @param <String> tag
-    // @return <Element> element
-    function make(tag) {
-
-        // ...stuff...
-
-        return element;
-    }
-
-    // good
     /**
      * make() returns a new element
      * based on the passed in tag name
@@ -76,30 +63,15 @@
      */
     function make(tag) {
 
-        // ...stuff...
+        // stuff...
 
         return element;
     }
     ```
 
-- Use `//` para comentários em uma única linha, acima do seu contexto. Adicione uma linha em branco acima do comentário.
+- Use `// comentários`.
+    - Explique o que está acontecendo no seu código.
     ```javascript
-    // bad
-    var active = true;  // is current tab
-
-    // good
-    // is current tab
-    var active = true;
-
-    // bad
-    function getType() {
-        console.log('fetching type...');
-        // set the default type to 'no type'
-        var type = this._type || 'no type';
-
-        return type;
-    }
-
     // good
     function getType() {
         console.log('fetching type...');
@@ -113,16 +85,6 @@
 
 - Não utilize vírgulas na frente da linha.
     ```javascript
-    // bad
-    var once
-        , upon
-        , aTime;
-
-    // good
-    var once,
-        upon,
-        aTime;
-
     // bad
     var hero = {
           firstName: 'Bob'
@@ -162,17 +124,17 @@
     ```javascript
     // bad
     // the function returns undefined and not an object with a name property
-    function func() 
+    function func()
     {
         return
         {
             name: "Batman"
-        }; 
+        };
     }
     // => undefined
 
     // good
-    function func() { 
+    function func() {
         return {
             name: "Batman"
         };
@@ -217,7 +179,7 @@
 
 ## Manipulação do DOM
 
-- Use prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
+- Use o prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
     ```javascript
     // bad
     var $button = $('.button');
