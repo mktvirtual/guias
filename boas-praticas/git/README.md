@@ -96,6 +96,7 @@
 ## Dicas de leitura
 
 - [git-useful](https://github.com/hugobessaa/git-useful), lista com comandos úteis para usar o git no CLI.
+- [Every line of code is always documented](http://mislav.uniqpath.com/2014/02/hidden-documentation/)
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
