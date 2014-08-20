@@ -5,6 +5,7 @@
 - [Formatação](#formata%C3%A7%C3%A3o)
 - [Seletores](#seletores)
 - [Ferramentas](#ferramentas)
+- [Dicas de leitura](#dicas-de-leitura)
 - [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
@@ -123,6 +124,13 @@
 
 - Use [Normalize](http://necolas.github.io/normalize.css/) como um browser reset. [(?)](http://nicolasgallagher.com/about-normalize-css/)
     - Ele é o padrão do Inuitcss e de muitos outros frameworks.
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
+## Dicas de leitura
+
+- [Hacks for dealing with specificity](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/)
+- [The problems with 'Crafting' code](http://csswizardry.com/2013/11/the-problems-with-crafting-code/)
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
