@@ -5,6 +5,7 @@
 - [Mantendo um repositório](#mantendo-um-reposit%C3%B3rio)
 - [Commits](#commits)
 - [Fluxo](#fluxo)
+- [Dicas de leitura](#dicas-de-leitura)
 - [Referências](#refer%C3%AAncias)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
@@ -89,6 +90,12 @@
     ```
     git push origin --delete <branch-name>
     ```
+
+[[⬆︎ Topo]](#sum%C3%A1rio)
+
+## Dicas de leitura
+
+- [git-useful](https://github.com/hugobessaa/git-useful), lista com comandos úteis para usar o git no CLI.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
