@@ -41,6 +41,7 @@
 
 - Evite utilizar `git commit -m ""`.
     - Este comando impede que você escreva mensagens com múltiplas linhas com facilidade. Sem o `-m`, você escreverá suas mensagens no vi.
+    - O vi já ajuda você a escrever bons commits, quebrando o texto na coluna correta.
 
 - Prefira `git commit --verbose`
     - Poder ver o diff dos arquivos a serem commitados é uma grande facilidade.
