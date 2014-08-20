@@ -2,9 +2,9 @@
 
 
 ## Sumário
-- [Grunt]()
-- [Deploy]()
-- [Dicas de leitura]()
+- [Grunt](#grunt)
+- [Deploy](#deploy)
+- [Dicas de leitura](#dicas-de-leitura)
 
 [[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
 
