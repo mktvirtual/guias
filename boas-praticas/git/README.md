@@ -18,6 +18,7 @@
 - Trabalhe em uma *feature branch*.
 
 - Baixe atualizações dos remotes frequentemente.
+    - Prefira `git pull --rebase`, para evitar merges desnecessários.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
@@ -56,7 +57,7 @@
 1. Crie uma *feature branch* local.
     ```
     git checkout master
-    git pull
+    git pull --rebase
     git checkout -b <branch-name>
     ```
 
