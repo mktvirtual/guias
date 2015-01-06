@@ -21,13 +21,6 @@ O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guia
 - Uma razão é boa quando você pode convencer alguém da equipe.
 - Leia todos os anexos indicados por "(?)".
 
-## Linguagem
-
-- "Evite": não use a não ser que você tenha uma boa razão.
-- "Não": nunca há uma boa razão.
-- "Prefira": indica uma opção melhor e é uma boa alternativa.
-- "Use": é uma instrução positiva.
-
 ## Sumário
 
 - [ ] [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
