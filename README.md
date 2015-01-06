@@ -3,7 +3,7 @@
 
 Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento na [Mkt Virtual](http://mktvirtual.com.br/). Do código ao *deploy*, eles cobrem cada parte do nosso trabalho diário.
 
-*Esta é uma versão em desenvolvimento, muitas coisas podem ainda mudar.*
+*Esta é uma versão em desenvolvimento.*
 
 ## Sumário
 
@@ -45,7 +45,7 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 
 Guias é mantido pela [Mkt Virtual](http://mktvirtual.com.br/). Ele segue conselhos de especialistas, dicas de grandes profissionais e opiniões de desenvolvedores apaixonados pelo que fazem.
 
-Esta é uma adaptação de diversos guias para a nossa realidade. Eis uma lista de algumas referências:
+Esta é uma adaptação de diversos guias para a nossa realidade. Algumas referências:
 
 - [Guides](https://github.com/thoughtbot/guides) por [thoughtbot](https://github.com/thoughtbot)
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines) por [csswizardry](https://github.com/csswizardry)
@@ -53,4 +53,4 @@ Esta é uma adaptação de diversos guias para a nossa realidade. Eis uma lista 
 
 ## Licença
 
-Guias é © 2014 Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides). Ele é distribuído sob a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/).
+Guides foi criado pela equipe da Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides) e outros guias distribuidos livremente (referênciados devidamente em cada página). Ele é distribuído sob a [licença MIT](https://github.com/mktvirtual/guides/tree/master/LICENSE).
