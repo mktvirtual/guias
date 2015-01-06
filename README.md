@@ -5,6 +5,14 @@ Estes guias foram criados para padronizar todo o *workflow* de desenvolvimento n
 
 *Esta é uma versão em desenvolvimento.*
 
+## Princípios
+
+O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guias servem para que sigamos estes princípios fundamentais:
+
+- **Legibilidade** - esse é um dos mais importantes. Antes de computadores lerem nossos códigos, desenvolvedores lerão. Ter um código legível é imprescindível para manter a equipe produtiva e os projetos o mais lisos possível.
+- **Organização** - em um ambiente organizado, trabalhamos melhor e com menos *stress*. Algumas regras e boas práticas nos ajudam a organizar nosso código e todo o projeto.
+- **Simplicidade** - nosso código e nossos projetos devem ser o mais simples possível, nunca menos ou mais que isso. Ambientes simples facilitam a entrada de novos integrantes e também a escalabilidade de cada projeto.
+
 ## Sumário
 
 - [ ] [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
