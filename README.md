@@ -53,4 +53,4 @@ Esta é uma adaptação de diversos guias para a nossa realidade. Algumas refer�
 
 ## Licença
 
-Guides foi criado pela equipe da Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides) e outros guias distribuidos livremente (referênciados devidamente em cada página). Ele é distribuído sob a [licença MIT](https://github.com/mktvirtual/guides/tree/master/LICENSE).
+Guides foi criado pela equipe da Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides) e outros guias distribuídos livremente (referênciados devidamente em cada página). Ele é distribuído sob a [licença MIT](https://github.com/mktvirtual/guides/tree/master/LICENSE).
