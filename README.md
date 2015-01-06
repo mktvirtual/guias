@@ -13,6 +13,21 @@ O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guia
 - **Organização** - em um ambiente organizado, trabalhamos melhor e com menos *stress*. Algumas regras e boas práticas nos ajudam a organizar nosso código e todo o projeto.
 - **Simplicidade** - nosso código e nossos projetos devem ser o mais simples possível, nunca menos ou mais que isso. Ambientes simples facilitam a entrada de novos integrantes e também a escalabilidade de cada projeto.
 
+## Diretrizes gerais
+
+- Seja consistente.
+- Não reescreva código existente para seguir estes guias.
+- Não viole diretrizes sem uma boa razão.
+- Uma razão é boa quando você pode convencer alguém da equipe.
+- Leia todos os anexos indicados por "(?)".
+
+## Linguagem
+
+- "Evite": não use a não ser que você tenha uma boa razão.
+- "Não": nunca há uma boa razão.
+- "Prefira": indica uma opção melhor e é uma boa alternativa.
+- "Use": é uma instrução positiva.
+
 ## Sumário
 
 - [ ] [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
@@ -33,21 +48,6 @@ O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guia
     - [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/ferramentas#geral)
     - [ ] [Front-end](https://github.com/mktvirtual/guides/tree/master/ferramentas#front-end)
     - [ ] Back-end
-
-## Diretrizes gerais
-
-- Seja consistente.
-- Não reescreva código existente para seguir estes guias.
-- Não viole diretrizes sem uma boa razão.
-- Uma razão é boa quando você pode convencer alguém da equipe.
-- Leia todos os anexos indicados por "(?)".
-
-## Linguagem
-
-- "Evite": não use a não ser que você tenha uma boa razão.
-- "Não": nunca há uma boa razão.
-- "Prefira": indica uma opção melhor e é uma boa alternativa.
-- "Use": é uma instrução positiva.
 
 ## Créditos
 
