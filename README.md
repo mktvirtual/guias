@@ -34,7 +34,6 @@ O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guia
     - [ ] [Git](https://github.com/mktvirtual/guides/tree/master/boas-praticas/git)
     - [ ] [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas/javascript)
     - [ ] [PHP](https://github.com/mktvirtual/guides/tree/master/boas-praticas/php)
-
     - [ ] [Automação](https://github.com/mktvirtual/guides/tree/master/boas-praticas/automacao)
 
 - [ ] [Ferramentas](https://github.com/mktvirtual/guides/tree/master/ferramentas)

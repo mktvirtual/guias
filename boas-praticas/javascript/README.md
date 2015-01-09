@@ -17,24 +17,24 @@
 - Use `var` para declarar variáveis.
     - Quando você declara uma variável sem `var`, ela vaza para o escopo global.
     ```javascript
-    // bad
+    // ruim
     me = 'globalization';
 
-    // good
+    // bom
     var me = 'better this way';
     ```
 
 - Declare variáveis acima de sua chamada.
-    - Isto impede o [*variable hoisting*](http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092).
+    - Isto impede o [*variable hoisting*](http://hugobessa.com.br/posts/entendendo-escopo-e-hoisting-no-javascript/).
     ```javascript
-    // bad
+    // ruim
     var john = person; // => null
 
-    // bad
+    // ruim
     var john = person; // => undefined
     var person = { age: 23 };
 
-    // good
+    // bom
     var person = { age: 23 };
     var john = person; // => { age: 23 }
     ```
@@ -67,7 +67,7 @@
 
 - Prefira objetos a muitos parâmetros.
     ```javascript
-    // bad
+    // ruim
     var setUserInfo = function(user, firstName, lastName, birthDay, gender) {
         user.firstName = firstName;
         user.lastName = lastName;
@@ -75,7 +75,7 @@
         // ...
     };
 
-    // good
+    // bom
     var setUserInfo = function(user, info){
         user.firstName = info.firstName;
         user.lastName = info.lastName;
@@ -90,7 +90,7 @@
 
 - Prefira `===` e `!==` em comparações. [(?)](http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons)
     ```javascript
-    // bad
+    // ruim
     5 == '5';        // => true
     5 == 6;          // => false
     5 == 5;          // => true
@@ -100,7 +100,7 @@
     0 == ' \n\t\r '; // => true
     0 == 1;          // => false
 
-    // good
+    // bom
     5 === '5';       // => false
     5 === 6;         // => false
     5 === 5;         // => true
@@ -116,16 +116,16 @@
 
 - Use a sintaxe literal para declarar objetos.
     ```javascript
-    // bad
+    // ruim
     var item = new Object();
 
-    // good
+    // bom
     var item = {};
     ```
 
 - Não use [palavras reservadas](http://es5.github.io/#x7.6.1) como chaves. Não funciona no IE 8.
     ```javascript
-    // bad
+    // ruim
     var superman = {
         default: {
             clark: 'kent'
@@ -133,7 +133,7 @@
         private: true
     };
 
-    // good
+    // bom
     var superman = {
         defaults: {
             clark: 'kent'
@@ -144,44 +144,20 @@
 
 - Use sinônimos para palavras reservadas.
     ```javascript
-    // bad
+    // ruim
     var superman = {
         class: 'alien'
     };
 
-    // bad
+    // ruim
     var superman = {
         klass: 'alien'
     };
 
-    // good
+    // bom
     var superman = {
         type: 'alien'
     };
-    ```
-
-- Use *dot notation* (`user.name`) para acessar valores de propriedades com o nome conhecido.
-    ```javascript
-    var user = { name: 'john' };
-
-    // bad
-    console.log(user["name"]);
-
-    // good
-    console.log(user.name);
-    ```
-
-- Use *bracket notation* (`user["name"]`) para acessar propriedades com o nome armazenado em uma variável.
-    ```javascript
-    var user = {
-        name: 'john',
-        age: 21
-    };
-
-    // good
-    for (var key in user) {
-        console.log(user[key]);
-    }
     ```
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
@@ -190,10 +166,10 @@
 
 - Use a sintaxe literal para declarar arrays.
     ```javascript
-    // bad
+    // ruim
     var list = new Array();
 
-    // good
+    // bom
     var list = [];
     ```
 
@@ -201,10 +177,10 @@
     ```javascript
     var someStack = [];
 
-    // bad
+    // ruim
     someStack[someStack.length] = 'abracadabra';
 
-    // good
+    // bom
     someStack.push('abracadabra');
     ```
 
@@ -213,46 +189,38 @@
 ## jQuery
 
 - Faça cache de objetos jQuery.
+    - Isso evita problemas de performance e facilita a manutenção do código.
     ```javascript
-    // bad
-    function setSidebar() {
-        $('.sidebar').hide();
+    // ruim
+    $('.sidebar').hide();
+    $('.sidebar').css({
+        'background-color': 'pink'
+    });
 
-        // ...stuff...
+    // bom
+    var $sidebar = $('.sidebar');
 
-        $('.sidebar').css({
-            'background-color': 'pink'
-        });
-    }
-
-    // good
-    function setSidebar() {
-        var $sidebar = $('.sidebar');
-        $sidebar.hide();
-
-        // ...stuff...
-
-        $sidebar.css({
-            'background-color': 'pink'
-        });
-    }
+    $sidebar.hide();
+    $sidebar.css({
+        'background-color': 'pink'
+    });
     ```
 
 - Prefira DOM queries. Use `find` em objetos jQuery já existentes. [Teste no jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16).
     ```javascript
-    // bad
+    // ruim
     $('ul', '.sidebar').hide();
 
-    // bad
+    // ruim
     $('.sidebar').find('ul').hide();
 
-    // good
+    // bom
     $('.sidebar ul').hide();
 
-    // good
+    // bom
     $('.sidebar > ul').hide();
 
-    // good
+    // bom
     $sidebar.find('ul').hide();
     ```
 

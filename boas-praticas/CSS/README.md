@@ -26,19 +26,19 @@
     - Seletores por tags são muito específicos. Enquanto estiver desenvolvendo código reutilizável você vai querer ser o mais flexível possível. Use seletores por tags quando você quer estilizar a própria tag (`blockquote`, `a`) ou se você tem uma ótima razão.
 
 - Não use seletores por ID.
-    - IDs são muito específicos. Classes não. Não existe uma boa razão para utilizar seletores por IDs.
+    - IDs são muito específicos. Classes não. Não existe uma boa razão para utilizar seletores por IDs. Se sentindo sem opção, obrigado a usar ID? Talvez [esse post](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/) te ajude.
 
 - Não especifique seletores mais do que o necessário.
     - Um seletor muito específico não é realmente reutilizável. Se o título (`.title`) muda de uma tag `h2` para `h1` por causa do SEO, por exemplo, você terá que reescrever seu seletor.
     - A abstração é uma das características mais importante de um componente.
 
     ```scss
-    // bad
+    // ruim
     h2.title {
         text-transform: uppercase;
     }
 
-    // good
+    // bom
     .title {
         text-transform: uppercase;
     }
@@ -57,7 +57,7 @@
     - É muito fácil criar seletores profundamente aninhados ao utilizar um pré-processador. Seletores profundamente aninhados não são muito reutilizáveis e são lentamente processados pelo browser. Ao usar `Scss` você pode simplesmente indentar os seletores se você estiver tentando espelhar a estruturação do componente no DOM. Mais um ponto para o `Scss`.
 
     ```scss
-    // bad
+    // ruim
     .post {
         // ...
 
@@ -78,7 +78,7 @@
         }
     }
 
-    // good
+    // bom
     .post {
         // ...
 
@@ -105,13 +105,13 @@
 
 - Prefira seletores `%placeholder` ao usar `@extend`. [(?)](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/).
     ```scss
-    // bad
+    // ruim
     .post {
         @extend .island;
         // ...
     }
 
-    // good
+    // bom
     .post {
         @extend %island;
         // ...

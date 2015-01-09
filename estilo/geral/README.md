@@ -12,8 +12,12 @@
 ## Idioma
 
 - Escreva código em inglês.
-    - Todo código deve estar em inglês, incluindo documentação, comentários, nomes de variáveis e atributos de objetos.
+    - Todo código deve estar em inglês, incluindo nomes de variáveis e atributos de objetos.
     - Sinta-se livre para criar traduções se for realmente importante.
+
+- Escreva comentários, documentação em português
+    - Para facilitar a leitura para toda a equipe, conteúdo de suporte ao código (documentação, comentários, commits) devem ser escritos em português
+    - Se este conteúdo já estiver em inglês, continue escrevendo em inglês.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
@@ -21,10 +25,10 @@
 
 - Não cometa erros de ortografia.
     ```javascript
-    // bad
+    // ruim
     var messagi;
 
-    // good
+    // bom
     var message;
     ```
 
@@ -32,41 +36,30 @@
     - As vezes é inevitável, mas quase sempre podemos ser mais explícitos e coesos ao dividir o código em mais linhas.
 
     ```javascript
-    // bad
+    // ruim
     var message = 'this is a very long message that will probably hurt this style guide so I can explain how to properly use it';
 
-    // good
+    // bom
     var message = 'this is a very long message that was broken'+
         ' to not hurt this style guide';
     ```
 
 - Use 4 espaços para indentação (não `tab`).
     ```javascript
-    // bad
+    // ruim
     for (var i = 0, len = obj.length; i < len; i++) {
     ∙∙console.log(obj[i]);
     }
 
-    // good
+    // bom
     for (var i = 0, len = obj.length; i < len; i++) {
     ∙∙∙∙console.log(obj[i]);
     }
     ```
 
-- Indente linhas contínuas com 4 espaços.
-    ```javascript
-    // bad
-    var $users = $('.user'),
-    ∙∙$posts = $('.post');
-
-    // good
-    var $users = $('.user'),
-    ∙∙∙∙$posts = $('.post');
-    ```
-
 - Use linhas em branco em volta de blocos com múltiplas linhas.
     ```scss
-    // bad
+    // ruim
     .user {
         border: 1px solid #000;
         color: #f00;
@@ -76,7 +69,7 @@
         color: #000;
     }
 
-    // good
+    // bom
     .user {
         border: 1px solid #000;
         color: #f00;
@@ -88,15 +81,17 @@
     }
     ```
 
-- Use espaços em volta de operadores, depois de vírgulas, depois de dois-pontos e ponto-e-virgulas, em volta de `{` e antes de `}`.
+- Use espaços.
+    - Eles são grandes amigos para melhorar a legibilidade do seu código.
+
     ```javascript
-    // bad
+    // ruim
     var i,total=10,obj=[];
     for (i=0;i<total;i++){
         obj[i]=i;
     }
 
-    // good
+    // bom
     var i, total = 10, obj = [];
     for (i = 0; i < total; i++) {
         obj[i] = i;
@@ -105,35 +100,24 @@
 
 - Não use espaços depois de `(`, `[` ou antes de `]`, `)`.
     ```javascript
-    var messages = [
-        'please do not do that',
-        'better this way'
-    ];
-    // bad
+    // ruim
     console.log( messages[ 0 ] );
 
-    // good
+    // bom
     console.log(messages[0]);
     ```
 
-- Evite abreviações.
+- Evite abreviações. Prefira variáveis com nomes explicativos, mesmo que fiquem grandes
     ```javascript
-    // bad
+    // ruim
     var l = [],
-        u = {};
+        u = {},
+        bul = [];
 
-    // good
+    // bom
     var list = [],
-        users = {};
-    ```
-
-- Evite usar o tipo do objeto no nome da variável.
-    ```javascript
-    // bad
-    var userObject = {};
-
-    // good
-    var user = {};
+        users = {},
+        blockedUsersList = [];
     ```
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
@@ -141,5 +125,7 @@
 ## Ordenação
 - Ordene métodos para que os métodos que chamam estejam antes que os métodos que eles chamam no arquivo.
 - Ordene métodos para que eles estejam o mais perto possível daqueles que eles chamam.
+- Ordene declarações e blocos para que estejam perto de outras declarações e blocos dentro do mesmo contexto.
+- Não use ordenação alfabética.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)

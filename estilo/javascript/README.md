@@ -14,34 +14,34 @@
 
 - Use ponto-e-vírgula.
     ```javascript
-    // bad
+    // ruim
     var me = $(this)
     test()
 
-    // good
+    // bom
     var me = $(this);
     test();
     ```
 
 - Use aspas simples.
     ```javascript
-    // bad
+    // ruim
     var string = "<p class='foo'>Lorem Ipsum</p>";
     var noteClick = me.attr("data-note");
 
-    // good
+    // bom
     var string = '<p class="foo">Lorem Ipsum</p>';
     var noteClick = me.attr('data-note');
     ```
 
 - Use `{}` em todos os blocos.
     ```javascript
-    // bad
+    // ruim
     if (condition) statement;
     else if (condition) statement;
     else statement;
 
-    // good
+    // bom
     if (condition) {
         statement
     } else if (condition) {
@@ -72,7 +72,7 @@
 - Use `// comentários`.
     - Explique o que está acontecendo no seu código.
     ```javascript
-    // good
+    // bom
     function getType() {
         console.log('fetching type...');
 
@@ -83,46 +83,27 @@
     }
     ```
 
-- Não utilize vírgulas na frente da linha.
-    ```javascript
-    // bad
-    var hero = {
-          firstName: 'Bob'
-        , lastName: 'Parr'
-        , heroName: 'Mr. Incredible'
-        , superPower: 'strength'
-    };
-
-    // good
-    var hero = {
-        firstName: 'Bob',
-        lastName: 'Parr',
-        heroName: 'Mr. Incredible',
-        superPower: 'strength'
-    };
-    ```
-
 - Prefixe objetos jQuery com `$`.
     ```javascript
-    // bad
+    // ruim
     var sidebar = $('.sidebar');
 
-    // good
+    // bom
     var $sidebar = $('.sidebar');
     ```
 
 - Use variáveis em `lowerCamelCase`
     ```javascript
-    // bad
+    // ruim
     var main_title, maintitle;
 
-    // good
+    // bom
     var mainTitle;
     ```
 
 - Use `{` na mesma linha da sentença.
     ```javascript
-    // bad
+    // ruim
     // the function returns undefined and not an object with a name property
     function func()
     {
@@ -133,7 +114,7 @@
     }
     // => undefined
 
-    // good
+    // bom
     function func() {
         return {
             name: "Batman"
@@ -148,30 +129,30 @@
 
 - Use `camelCase` para variáveis normais.
     ```javascript
-    // bad
+    // ruim
     var table_prefix = 'table-';
     var tableprefix = 'table-';
     var TablePrefix = 'table-';
 
-    // good
+    // bom
     var tablePrefix = 'table-';
     ```
 
 - Use `PascalCase` para "classes".
     ```javascript
-    // bad
+    // ruim
     var app = { /* ... */ };
 
-    // good
+    // bom
     var App = { /* ... */ };
     ```
 
 - Use `UPPER_CASE` para constantes.
     ```javascript
-    // bad
+    // ruim
     var maxWidth = 300;
 
-    // good
+    // bom
     var MAX_WIDTH = 300;
     ```
 
@@ -181,10 +162,10 @@
 
 - Use o prefixo `js-` nas classes de elementos selecionados pelo JavaScript. [(?)](https://github.com/csswizardry/CSS-Guidelines#js-hooks)
     ```javascript
-    // bad
+    // ruim
     var $button = $('.button');
 
-    // good
+    // bom
     var $button = $('.js-button');
     ```
 
