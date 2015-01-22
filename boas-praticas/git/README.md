@@ -56,10 +56,21 @@
 
 ## Fluxo de trabalho
 
+1. Atualize seu repositório local ou clone um remoto.
+    - atualizando repositório local
+        ```
+        git checkout master
+        git pull --rebase
+        ```
+
+    - clonando repositório remoto
+        ```
+        git clone <git-url>
+        cd <project-name>
+        ```
+
 1. Crie uma *feature branch* local.
     ```
-    git checkout master
-    git pull --rebase
     git checkout -b <branch-name>
     ```
 
@@ -81,15 +92,16 @@
     git push origin <branch-name>
     ```
 
-1. Remova sua branch local.
-    ```
-    git branch --delete <branch-name>
-    ```
+1. Após o merge com a branch master (ou outra principal), remova suas branches.
+    - removendo uma branch local
+        ```
+        git branch --delete <branch-name>
+        ```
 
-1. Remova a branch remota.
-    ```
-    git push origin --delete <branch-name>
-    ```
+    - removendo uma branch remota.
+        ```
+        git push origin --delete <branch-name>
+        ```
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
 
