@@ -51,7 +51,7 @@ Guias é mantido pela [Mkt Virtual](http://mktvirtual.com.br/). Ele segue consel
 
 Esta é uma adaptação de diversos guias para a nossa realidade. Algumas referências:
 
-- [guias](https://github.com/thoughtbot/guias) por [thoughtbot](https://github.com/thoughtbot)
+- [Guides](https://github.com/thoughtbot/guides) por [thoughtbot](https://github.com/thoughtbot)
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines) por [csswizardry](https://github.com/csswizardry)
 - [Javascript](https://github.com/airbnb/javascript) por [airbnb](https://github.com/airbnb)
 
