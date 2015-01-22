@@ -25,17 +25,17 @@
 
 ## Commits
 
-- Use mensagens em inglês.
+- Use mensagens em português.
 
 - Escreva uma boa mensagem de commit. [(?)](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
     - Formato de exemplo:
         ```
-        Present-tense summary under 50 characters
+        Resumo no presente com menos de 50 caracteres.
 
-        Write more explanatory text to documment your changes.
+        Escreva mais texto explicativo para documentar as suas mudanças
 
-        * More information about commit (under 72 characters).
-        * More information about commit (under 72 characters).
+        * Mais informações sobre o commit (até 72 caracteres).
+        * Mais informações sobre o commit (até 72 caracteres).
 
         http:://project.management-system.com/ticket/123
         ```
