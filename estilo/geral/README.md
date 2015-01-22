@@ -7,7 +7,7 @@
 - [Formatação](#formata%C3%A7%C3%A3o)
 - [Ordenação](#ordena%C3%A7%C3%A3o)
 
-[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)
+[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guias/tree/master/estilo)
 
 ## Idioma
 

@@ -2,11 +2,11 @@
 > nossos braços-direitos
 
 ## Sumário
-- [Geral](https://github.com/mktvirtual/guides/tree/master/ferramentas#geral)
-- [Front-end](https://github.com/mktvirtual/guides/tree/master/ferramentas#front-end)
+- [Geral](https://github.com/mktvirtual/guias/tree/master/ferramentas#geral)
+- [Front-end](https://github.com/mktvirtual/guias/tree/master/ferramentas#front-end)
 - Back-end
 
-[[⬅︎ Voltar para Guias]](https://github.com/mktvirtual/guides)
+[[⬅︎ Voltar para Guias]](https://github.com/mktvirtual/guias)
 
 ## Geral
 

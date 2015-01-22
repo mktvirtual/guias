@@ -27,22 +27,22 @@ Na Mkt Virtual, podemos usar qualquer editor. Vim, SublimeText, Brackets, TextMa
 
 ## Sumário
 
-- [ ] [Estilo](https://github.com/mktvirtual/guides/tree/master/estilo)
-    - [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/estilo/geral)
-    - [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/estilo/CSS)
-    - [ ] [Javascript](https://github.com/mktvirtual/guides/tree/master/estilo/javascript)
+- [ ] [Estilo](https://github.com/mktvirtual/guias/tree/master/estilo)
+    - [ ] [Geral](https://github.com/mktvirtual/guias/tree/master/estilo/geral)
+    - [ ] [CSS](https://github.com/mktvirtual/guias/tree/master/estilo/CSS)
+    - [ ] [Javascript](https://github.com/mktvirtual/guias/tree/master/estilo/javascript)
     - [ ] PHP
 
-- [ ] [Boas práticas](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
-    - [ ] [CSS](https://github.com/mktvirtual/guides/tree/master/boas-praticas/CSS)
-    - [ ] [Git](https://github.com/mktvirtual/guides/tree/master/boas-praticas/git)
-    - [ ] [Javascript](https://github.com/mktvirtual/guides/tree/master/boas-praticas/javascript)
-    - [ ] [PHP](https://github.com/mktvirtual/guides/tree/master/boas-praticas/php)
-    - [ ] [Automação](https://github.com/mktvirtual/guides/tree/master/boas-praticas/automacao)
+- [ ] [Boas práticas](https://github.com/mktvirtual/guias/tree/master/boas-praticas)
+    - [ ] [CSS](https://github.com/mktvirtual/guias/tree/master/boas-praticas/CSS)
+    - [ ] [Git](https://github.com/mktvirtual/guias/tree/master/boas-praticas/git)
+    - [ ] [Javascript](https://github.com/mktvirtual/guias/tree/master/boas-praticas/javascript)
+    - [ ] [PHP](https://github.com/mktvirtual/guias/tree/master/boas-praticas/php)
+    - [ ] [Automação](https://github.com/mktvirtual/guias/tree/master/boas-praticas/automacao)
 
-- [ ] [Ferramentas](https://github.com/mktvirtual/guides/tree/master/ferramentas)
-    - [ ] [Geral](https://github.com/mktvirtual/guides/tree/master/ferramentas#geral)
-    - [ ] [Front-end](https://github.com/mktvirtual/guides/tree/master/ferramentas#front-end)
+- [ ] [Ferramentas](https://github.com/mktvirtual/guias/tree/master/ferramentas)
+    - [ ] [Geral](https://github.com/mktvirtual/guias/tree/master/ferramentas#geral)
+    - [ ] [Front-end](https://github.com/mktvirtual/guias/tree/master/ferramentas#front-end)
     - [ ] Back-end
 
 ## Créditos
@@ -51,10 +51,10 @@ Guias é mantido pela [Mkt Virtual](http://mktvirtual.com.br/). Ele segue consel
 
 Esta é uma adaptação de diversos guias para a nossa realidade. Algumas referências:
 
-- [Guides](https://github.com/thoughtbot/guides) por [thoughtbot](https://github.com/thoughtbot)
+- [guias](https://github.com/thoughtbot/guias) por [thoughtbot](https://github.com/thoughtbot)
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines) por [csswizardry](https://github.com/csswizardry)
 - [Javascript](https://github.com/airbnb/javascript) por [airbnb](https://github.com/airbnb)
 
 ## Licença
 
-Guides foi criado pela equipe da Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides) e outros guias distribuídos livremente (referênciados devidamente em cada página). Ele é distribuído sob a [licença MIT](https://github.com/mktvirtual/guides/tree/master/LICENSE).
+Guias foi criado pela equipe da Mkt Virtual. Ele é uma adaptação de [Guides, por thoughtbot, inc](https://github.com/thoughtbot/guides) e outros guias distribuídos livremente (referênciados devidamente em cada página). Ele é distribuído sob a [licença MIT](https://github.com/mktvirtual/guias/tree/master/LICENSE).

@@ -10,7 +10,7 @@
 - [Arrays](#arrays)
 - [Referências](#refer%C3%AAncias)
 
-[[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guides/tree/master/boas-praticas)
+[[⬅︎ Voltar para Boas Práticas]](https://github.com/mktvirtual/guias/tree/master/boas-praticas)
 
 ## Variáveis
 

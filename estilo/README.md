@@ -2,9 +2,9 @@
 > Faça certo. Faça com estilo.
 
 ## Sumário
-- [Geral](https://github.com/mktvirtual/guides/tree/master/estilo/geral)
-- [CSS](https://github.com/mktvirtual/guides/tree/master/estilo/CSS)
-- [Javascript](https://github.com/mktvirtual/guides/tree/master/estilo/javascript)
+- [Geral](https://github.com/mktvirtual/guias/tree/master/estilo/geral)
+- [CSS](https://github.com/mktvirtual/guias/tree/master/estilo/CSS)
+- [Javascript](https://github.com/mktvirtual/guias/tree/master/estilo/javascript)
 - PHP
 
-[[⬅︎ Voltar para Guias]](https://github.com/mktvirtual/guides)
+[[⬅︎ Voltar para Guias]](https://github.com/mktvirtual/guias)

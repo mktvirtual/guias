@@ -8,7 +8,7 @@
 - [Organização](#organiza%C3%A7%C3%A3o)
 - [Referências](#refer%C3%AAncias)
 
-[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guides/tree/master/estilo)
+[[⬅︎ Voltar para Estilo]](https://github.com/mktvirtual/guias/tree/master/estilo)
 
 ## Formatação
 - Use [Sass](http://sass-lang.com/).
@@ -203,6 +203,6 @@
 - [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
     - Utilize estas diretrizes para escrever CSS da melhor forma. Grande parte deste guia foi baseado nele.
 - [Guides por Thoughtbot](https://github.com/thoughtbot/guides/tree/master/style)
-    - Este guia também é uma adaptação do Guides da Thoughtbot.
+    - Este guia também é uma adaptação do guides da Thoughtbot.
 
 [[⬆︎ Topo]](#sum%C3%A1rio)
