@@ -25,6 +25,8 @@ O desenvolvimento na Mkt Virtual é guiado por alguns princípios. Todas os guia
 
 Na Mkt Virtual, podemos usar qualquer editor. Vim, SublimeText, Brackets, TextMate ou outros. Nós usamos o EditorConfig para manter o código consistente e seguindo as diretrizes deste guia. As regras estão no arquivo `.editorconfig`.
 
+Instale plugins para [Vim](https://github.com/editorconfig/editorconfig-vim#readme), [SublimeText](https://github.com/sindresorhus/editorconfig-sublime#readme), [Brackets](https://github.com/kidwm/brackets-editorconfig/), [TextMate](https://github.com/Mr0grog/editorconfig-textmate#readme) ou [outro editor](http://editorconfig.org/#download).
+
 ## Sumário
 
 - [ ] [Estilo](https://github.com/mktvirtual/guias/tree/master/estilo)
