@@ -29,23 +29,23 @@ Instale plugins para [Vim](https://github.com/editorconfig/editorconfig-vim#read
 
 ## Sumário
 
-- [ ] [Estilo](https://github.com/mktvirtual/guias/tree/master/estilo)
-    - [ ] [Geral](https://github.com/mktvirtual/guias/tree/master/estilo/geral)
-    - [ ] [CSS](https://github.com/mktvirtual/guias/tree/master/estilo/CSS)
-    - [ ] [Javascript](https://github.com/mktvirtual/guias/tree/master/estilo/javascript)
-    - [ ] PHP
+- [Estilo](https://github.com/mktvirtual/guias/tree/master/estilo)
+    - [Geral](https://github.com/mktvirtual/guias/tree/master/estilo/geral)
+    - [CSS](https://github.com/mktvirtual/guias/tree/master/estilo/CSS)
+    - [Javascript](https://github.com/mktvirtual/guias/tree/master/estilo/javascript)
+    - PHP
 
-- [ ] [Boas práticas](https://github.com/mktvirtual/guias/tree/master/boas-praticas)
-    - [ ] [CSS](https://github.com/mktvirtual/guias/tree/master/boas-praticas/CSS)
-    - [ ] [Git](https://github.com/mktvirtual/guias/tree/master/boas-praticas/git)
-    - [ ] [Javascript](https://github.com/mktvirtual/guias/tree/master/boas-praticas/javascript)
-    - [ ] [PHP](https://github.com/mktvirtual/guias/tree/master/boas-praticas/php)
-    - [ ] [Automação](https://github.com/mktvirtual/guias/tree/master/boas-praticas/automacao)
+- [Boas práticas](https://github.com/mktvirtual/guias/tree/master/boas-praticas)
+    - [CSS](https://github.com/mktvirtual/guias/tree/master/boas-praticas/CSS)
+    - [Git](https://github.com/mktvirtual/guias/tree/master/boas-praticas/git)
+    - [Javascript](https://github.com/mktvirtual/guias/tree/master/boas-praticas/javascript)
+    - [PHP](https://github.com/mktvirtual/guias/tree/master/boas-praticas/php)
+    - [Automação](https://github.com/mktvirtual/guias/tree/master/boas-praticas/automacao)
 
-- [ ] [Ferramentas](https://github.com/mktvirtual/guias/tree/master/ferramentas)
-    - [ ] [Geral](https://github.com/mktvirtual/guias/tree/master/ferramentas#geral)
-    - [ ] [Front-end](https://github.com/mktvirtual/guias/tree/master/ferramentas#front-end)
-    - [ ] Back-end
+- [Ferramentas](https://github.com/mktvirtual/guias/tree/master/ferramentas)
+    - [Geral](https://github.com/mktvirtual/guias/tree/master/ferramentas#geral)
+    - [Front-end](https://github.com/mktvirtual/guias/tree/master/ferramentas#front-end)
+    - Back-end
 
 ## Créditos
 
