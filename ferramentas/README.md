@@ -24,4 +24,8 @@
 - [Bower](http://bower.io/) - gerenciador de pacotes front-end.
 - [Yeoman](http://yeoman.io/) - *scaffolding* de novos projetos.
 
+## Back-end
+
+- [Composer](https://getcomposer.org/) - Dependency Manager for PHP
+
 [[⬆︎ Topo]](#sum%C3%A1rio)
