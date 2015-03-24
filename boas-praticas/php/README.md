@@ -4,21 +4,9 @@
 1. Visão Geral
 --------------
 
-- Files MUST use only `<?php` and `<?=` tags.
-
-- Files MUST use only UTF-8 without BOM for PHP code.
-
-- Code MUST follow a "coding style guide" PSR [[PSR-1]].
-
-- Code MUST use 4 spaces for indenting, not tabs.
-
-- Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0], [PSR-4]].
-
-- Class names MUST be declared in `StudlyCaps`.
-
-- Class constants MUST be declared in all upper case with underscore separators.
-
-- Method names MUST be declared in `camelCase`.
+- Script só deve usar `<?php`.
+- Usar somente UTF-8 without BOM.
+- Indentação de 4 espaços ou tab.
 
 
 2. Namespaces e Classes
@@ -95,27 +83,24 @@ class ClassName
 }
 ```
 
-### 3.4. Keywords and True/False/Null
+### 3.4. Palavra-chave e True/False/Null
 
-PHP [keywords] MUST be in lower case.
+- Palavras-chave do PHP deve estar em letra minúscula.
 
-The PHP constants `true`, `false`, and `null` MUST be in lower case.
+- `true`, `false`, and `null` deve estar em letra minúscula.
 
-[keywords]: http://php.net/manual/en/reserved.keywords.php
+[Palavras-chave]: http://php.net/manual/en/reserved.keywords.php
 
 
-4. Control Structures
----------------------
+4. Estrutura de controle
+------------------------
 
-The general style rules for control structures are as follows:
+As regras gerais são as seguintes:
 
-- There MUST be one space after the control structure keyword
-- There MUST NOT be a space after the opening parenthesis
-- There MUST NOT be a space before the closing parenthesis
-- There MUST be one space between the closing parenthesis and the opening
-  brace
-- The structure body MUST be indented once
-- The closing brace MUST be on the next line after the body
+- Deve haver um espaço após a palavra-chave estrutura de controle
+- Não deve haver um espaço após o parêntese de abertura
+- Não deve haver um espaço antes do parêntese de fechamento
+- A chave de fechamento deve estar na linha seguinte depois que o corpo
 
 ### 4.1. `if`, `elseif`, `else`
 
